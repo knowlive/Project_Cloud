@@ -1,0 +1,116 @@
+iptables 규칙 (Centos 기준)
+
+yum install iptables-services -y
+
+netfilter? (필터링)
+
+iptables이 패킷을 필터링 하는것이 아니다. 패킷필터링은 커널에 탑제된 netfilter 기능으로 하며
+iptables은 단지 netfilter의 룰을 세워줄 뿐이다. 즉 다시 말하자면 iptables은 룰셋 구축 툴이라는 말이다.
+
+[방화벽 초기 설정]
+
+iptable에 기본 Chain은 아래와 같다.
+
+# iptables -F (메모리의 기존 iptables 룰 삭제)
+# iptables -F -t nat (메모리의 기존 iptables nat 'pre/postrouting' 룰 삭제)
+# iptables -nL (메모리의 기존 iptables 룰 보기)
+
+INPUT chain
+FORWARD chain
+OUTPUT chain 
+
+LAB1) CentOS7에 아파치 웹서버를 설치하고 서비스 시작/등록/상태보기 및 Firewalld 서비스 해제 상태를 확인.
+         아래 각 iptables 룰을 설정할때마다 외부 클라이언트에서 웹서버에 접속을 시도해 보고 결과 확인.
+
+사용예) iptables -A chain -j target
+
+# iptables -A INPUT -j DROP (들어오는 패킷 차단 룰)
+# iptables -A OUTPUT -j DROP (나가는 패킷 차단 룰)
+# iptables -A FORWARD -j DROP (방화벽 안쪽 패킷 차단 룰)
+# iptables -D INPUT -j DROP (기존 룰 지우기)
+# iptables -D OUTPUT -j DROP (기존 룰 지우기)
+# iptables -I FORWARD 1 -j DROP (룰 위치 정하기)
+# iptables -R FORWARD 2 -j DROP (룰 내용 바꾸기)
+# iptables -P INPUT DROP (들어오는 패킷 차단 정책)
+# iptables -P OUTPUT DROP (나가는 패킷 차단 정책)
+# iptables -P FORWARD DROP (방화벽 안쪽 패킷 차단 정책)
+
+[ 패킷의 목적지 또는 출발지 제어 ]
+
+LAB2) 외부 클라이언트에 웹서버를 설치하고 아래 각 iptables 룰을 설정할때마다 방화벽에서 외부 웹서버로
+         콘솔에서 접속을 시도해 보고 결과 확인.
+
+# iptables -A INPUT -s 192.168.158.131 -j DROP (들어오는 패킷중 특정 출발지 IP 차단 룰)
+# iptables -A INPUT -d 192.168.158.132 -j DROP (들오오는 패킷중 특정 목적지 IP 차단 룰)
+# iptables -A OUTPUT -d 192.168.158.131 -j DROP (나가는 패킷중 특정 목적지 IP 차단 룰)
+# iptables -A OUTPUT -d google.com -j DROP (나가는 패킷중 특정 목적지 IP 차단 룰)
+
+[ 프로토콜 제어 ]
+
+# iptables -A INPUT -p tcp --dport 22 -j DROP (들어오는 패킷중 22번 포트 차단 룰)
+# iptables -A OUTPUT -p tcp --dport 22 -j DROP (나가는 패킷중 22번 포트 차단 룰)
+
+※ 여러 포트를 지정해야 된다면 --dport 1024:65535 와 같이 지정할수있다. 
+뜻은 1024 부터 65535번까지라는 뜻이다.
+
+[ 인터페이스 지정 ]
+
+# iptables -A INPUT -i ens192 -p tcp --dport 80 -j DROP
+
+[모두 사용]
+
+# iptables -A INPUT -i eth0 -d 192.168.116.128 -p tcp --dport 80 -j DROP
+# iptables -A OUTPUT -o eth0 -d 125.132.9.212 -p tcp --dport 80 -j DROP
+
+# iptables -A INPUT -d 192.168.116.128 -p tcp --dport 80 -j ACCEPT
+
+# ip 포워딩 설정
+
+# vi /etc/sysctl.conf
+net.ipv4.ip_forward=1
+:wq
+
+# nat, port 포워딩 설정
+
+//내부끼리 통신
+iptables -A FORWARD -i ens224 -j ACCEPT
+iptables -A FORWARD -o ens224 -j ACCEPT
+
+all 이 먼저 있으면 그 아래 규칙들은 절대 성립x
+
+//WEB1 거부
+iptables -I FORWARD 1 -i ens192 -p tcp --dport 8080 -s 192.168.243.1 -d 192.168.1.100 -j DROP
+
+//WEB2 허용
+iptables -A FORWARD -i ens192 -p tcp --dport 8181 -s 192.168.243.1 -d 192.168.1.101 -j ACCEPT
+
+//외부에서 받아오기
+iptables -t nat -A POSTROUTING -o ens192 -j MASQUERADE
+
+※ 이 규칙은 방화벽/게이트웨이 뒤에 위치한 시스템이 내부 네트워크에 접근할 수 있도록 설정합니다.
+게이트웨이는 한 LAN 네트워크로부터 들어오는 모든 패킷을 eth1 장치를 통해 대상 네트워크로 라우팅할 것입니다.
+이렇게 함으로서 LAN 상의 시스템들이 서로 통신할 수 있게 됩니다; 그러나 인터넷과 같은 외부 시스템과의 통신은 허용되지 않습니다.
+
+※ LAN 상의 시스템이 가상 IP 주소를 가지고 외부 공중 네트워크와 통신할 수 있도록 허용하시려면,
+LAN 시스템에서 외부로 향하는 요청이 방화벽 외부 장치(이 예시에서는 eth0)의 IP 주소로 나가도록 방화벽에 IP masquerading 기능을
+설정하십시오
+
+# iptables -t nat -A PREROUTING -i ens192 -p tcp --dport 8080 -j DNAT --to 192.168.1.100:80
+
+# iptables -t nat -A PREROUTING -i ens192 -p tcp --dport 8181 -j DNAT --to 192.168.1.101:80
+
+1. NAT (Network Address Traslation)
+	NAT는 외부 네트워크와 다른 IP를 사용하는 내부 내트워크에서 IP 주소를 변환하는 것입니다. 
+	NAT는 2개의 CHAIN 을 포함하는데 PREROUTING  POSTROUTING이다. 
+2. PREROUTING
+	PREROUTING은 DNAT(Destnation NAT) 즉,  외부 IP를 내부의 사설 IP 로 포워딩 하는 경우 사용 합니다. 
+3. POSTROUTING
+	POSTROUTING은 SNAT(Source NAT)즉, 내부 사설 IP 를 외부 공인 IP로 변환할 때 사용 합니다. 
+
+LAB3) 외부에서 들어오는 패킷중 특정 IP 1개만 내부 웹서버에 접속할 수 없도록 차단하시오.
+
+iptables -I FORWARD 1 -i ens192 -s 192.168.158.131 -j DROP
+
+LAB4) 외부에 웹서버를 구축 후 내부 웹서버 중 한 IP 에서 외부 웹서버에 접속할 수 없도록 차단하시오.
+
+iptables -I FORWARD 1 -o ens192 -d 192.168.158.131 -j DROP
