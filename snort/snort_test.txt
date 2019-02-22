@@ -1,0 +1,7 @@
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Win7IE Version Finding."; content: "Trident"; sid:1;)
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Chrome Version Finding."; content: "Chrome"; sid:2;)
+
+pass tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Firefox Version Finding."; content: "Firefox";  sid:3;)
+
+reject tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "SSH brute force attack"; content: "SSH-"; detection_filter: track by_src, count 5, seconds 60; metadata: service ssh; classtype: misc-activity; sid:6;)

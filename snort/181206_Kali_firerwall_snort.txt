@@ -1,0 +1,428 @@
+# VMWARE 설정
+
+1. 칼리리눅스 설정에서 랜카드1은 NAT, 랜카드2 추가하여 LAN Segment 선택 후 VLAN_SER 추가 선택
+2. Centos 서버에서 랜카드를 LAN Segment 선택 후 VLAN_SER 추가 선택
+	-> WEB_SERVER_01,02에서 LAN Segment 설정
+
+# 칼리리눅스 화면 우측 상단에서 오른 클릭하고 시간설정, 전원설정
+
+# Kali Linux 인라인 구성 (리눅스 방화벽 만들기)
+
+//터미널 창을 열고 다음을 Ctrl+C, Ctrl+V 하여 작업
+** vi 명령어 설명 (vi : 리눅스 기본 편집기 - 메모장과 같은 도구)
+a - 편집 모드로 들어가기 - 하단에 -- INSERT -- 라고 표시되면 편집 모드임.
+esc - 편집이 끝나면 누름.
+/ - 검색 기능
+:wq - 저장하고 vi에서 나오기.
+ctrl+shift+V - 붙여넣기
+
+
+
+# IP 받아오기 ##################################
+
+//그 랜카드 생성하고 난 직후에 - 아무런 설정하지 않고 - 혹시 ip를 못받아오는 경우가 생긴다면, 다음과 같은 방법을 진행해보자.
+//우리가 랜카드를 새롭게 설정해주었기 때문에 기존의 네트워크 매니저와 충돌이 일어났다는데,
+//그래서 해당 네트워크 매니저를 사용중지해주어야함.
+
+# Network-Manager 사용중지 - 
+
+systemctl stop NetworkManager.service
+systemctl disable NetworkManager.service
+
+
+# eth0 자동 IP 설정, eth1 수동IP 설정
+vi /etc/network/interfaces
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 192.168.100.254
+netmask 255.255.255.0
+network 192.168.100.0
+broadcast 192.168.100.255
+dns-nameservers 8.8.8.8
+
+:wq
+
+reboot
+
+
+
+
+# 방화벽 #################################################
+//방화벽은 L2(mac, ethernet), 3(network, ip), 4(port) 까지 막을 수 있어?
+
+
+apt update
+apt install apache2
+apt install ssh
+	-> 뭔가 막 공백같은거 나오고 멈추면 스페이스 누르고 Q 누르고 선택창 나오면 YES를 선택해버려
+
+
+##ssh 접속을 위한 사용자계정 생성하기
+adduser sylvi
+	-> passwd 설정하고 나머진 default 설정
+
+cf. useradd는 그저 생성만 됨. 나중에 passwd를 통해서 패스워드 설정을 해줘야함!
+
+
+systemctl start apache2
+systemctl enable apache2
+
+systemctl start ssh
+systemctl enable ssh
+
+
+-> eth0 주소(192.168.42.132)로 win10에서 접속해보면 apache 페이지가 뜨면 됨!
+-> putty에서도 접속이 가능! 아까 생성해준 계정으로 로그인하면 된다 이자식아
+	-> user로 접속. root로 접속하려면 su, pw는 toor
+
+
+
+##방화벽 초기 설정
+//보통 나가는 걸 막지는 않음. INPUT에 대한 설정은 있는데 OUTPUT은 굳이..
+//내부->외부 NAT는 DNAT(Destination). 외부->내부 NAT는 SNAT(Source)
+
+iptables -L				//iptables setting list
+
+iptables -F				//iptables 초기화
+
+iptables -P INPUT DROP		//INPUT DROP 이거 소문자로 하면 안먹음
+				//이거 하고나면 웹접속이랑 putty 접속 끊김
+//REJECT라고 해도 같은 결과가 나올 수 있는데 DROP과는 조금 다름
+//DROP은 discard, delete -> 결과가 timeout임. 장애인지 방화벽이 막힌 건지 모름
+//REJECT는 거부 패킷을 보냄 -> 너님 거부당함ㅇㅇ 이라는 메시지가 뜨나봄. 침입자는 거부당했다는 사실을 알 수 있음
+//근데 이거 나는 확인 못하나봐? drop 하고 reject 가 같은 메시지를 보내도록 웹에서 설정한 것 같다고 하는데 모름. 확인 안해봄
+
+
+iptables -A INPUT -j DROP		//rule 정책에 의해 다 막을 수 있음.
+
+
+//위와 아래의 차이는, 결론은 다 막는데
+//위는 뚫릴 수 있는 공간이 있나봄? 즉, 예외처리를 해주면 걔네는 뚫고 들어갈 수 있는데
+//아래는 그냥 다 막아버려. 예외없음.
+
+//위는 리스트 확인하면 그냥 policy drop만 상단에 뜨는데
+//아래는 리스트 확인하면 모든거 다 drop한다고 적혀있음
+
+
+
+##패킷의 목적지또는 출처 제어
+
+iptables -A INPUT -s 192.168.42.1 -j ACCEPT		//이 ip는 host pc의 vmnet8 ip를 의미함
+//A(Add)는 추가? s는 source, j(jump)는 처리에 대한 설정, 뒤에 있는 거 실행하겠다고.
+//다른 것은 drop이지만 해당 ip는 열어주는 것. 	-> 다시 확인하면 apache화면 뜹니다
+//rule에 순서가 있다고 하는데욥. 지금과 같은 경우엔 먼저 전체 차단하지만, 해당 ip에 대해선 열어줌
+
+//정책상으로 모든거 drop한다고 한 이후에 추가하면 리스트에는 뜨는데 웹접속이 안됨.
+//rule에 순서가 있다고 위에 적었으니까!
+
+
+iptables -D INPUT -s 192.168.42.1 -j ACCEPT		//이거 삭제각이네
+
+
+iptables -A INPUT -d 192.168.10.12 -j DROP		// 목적지 drop같은데??		
+
+
+
+## 프로토콜 제어
+
+iptables -A INPUT -p tcp --dport 80 -j DROP		// 목적지 포트 80 막는건가
+
+//기본적으로 정책이 accept일 때만 뒤에 있는 -j drop을 적어주면 됨
+
+※ 여러 포트를 지정해야 된다면 --dport 1024:65535 와 같이 지정할수있다. 
+뜻은 1024 부터 65535번까지라는 뜻이다.
+
+
+
+## 인터페이스 지정
+
+iptables -A INPUT -i eth0 -p tcp --dport 80 -j DROP	//eth0으로 들어와서 tcp 프로토콜, 도착지 80번 막아
+
+문제 : INPUT 체인에 -- 입력인터페이스가 eth0이고 도착지가 192.168.42.132이고 (ip는 kali linux)
+프로토콜은 tcp이며 도착 포트는 80(www, http)인 패킷은 DROP시켜라.
+	-> iptables -A INPUT -i eth0 -d 192.168.42.132 -p -tcp --dport 80 -j DROP
+			    L2          L3		L4
+
+iptables -A OUTPUT -o eth0 -d 125.132.9.212 -p tcp --dport 80 -j DROP
+//해당 ip는 hali.co.kr의 ip였음		
+	-> OUTPUT체인, eth0 인터페이스, 목적지는 저런 아이피, tcp프로토콜 80번 포트는 drop
+	-> 이거 화면은 어떻게 뜨지? A. input막는 거랑 같은 화면인가봄
+
+
+
+
+# SNORT ##################################################
+	www.snort.org
+
+**침입탐지시스템(IDS)
+
+
+# eth0 자동 IP 설정, eth1 수동IP 설정
+vi /etc/network/interfaces
+	-> 위에서 진행함
+
+# ip 포워딩 설정
+vi /etc/sysctl.conf
+	net.ipv4.ip_forward=1
+:wq
+
+
+
+## nat, port 포워딩 설정
+//port porwarding을 도커에서 -p 8080:80 의 설정과 같은 거라고 생각하면 됨.
+
+
+iptables -A FORWARD -i eth1 -j ACCEPT
+iptables -A FORWARD -o eth1 -j ACCEPT
+//LAN settings, communications between LAN users
+
+※ 이 규칙은 방화벽/게이트웨이 뒤에 위치한 시스템이 내부 네트워크에 접근할 수 있도록 설정합니다.
+게이트웨이는 한 LAN 네트워크로부터 들어오는 모든 패킷을 eth1 장치를 통해 대상 네트워크로 라우팅할 것입니다.
+이렇게 함으로서 LAN 상의 시스템들이 서로 통신할 수 있게 됩니다; 그러나 인터넷과 같은 외부 시스템과의 통신은 허용되지 않습니다.
+
+
+
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+//인터넷 공유기능, NAT
+//POSTROUTING = SNAT
+
+※ LAN 상의 시스템이 가상 IP 주소를 가지고 외부 공중 네트워크와 통신할 수 있도록 허용하시려면,
+LAN 시스템에서 외부로 향하는 요청이 방화벽 외부 장치(이 예시에서는 eth0)의 IP 주소로 나가도록 방화벽에 IP masquerading 기능을
+설정하십시오
+※※ masquerade ; ip 변환?
+
+
+
+*****각 web server의 터미널에서
+cd /etc/udev/rules.d
+rm -rf 70-persistent-net.rules
+reboot
+
+
+
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 8080 -j DNAT --to 192.168.100.1:88
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 8181 -j DNAT --to 192.168.100.2:88
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 8282 -j DNAT --to 192.168.100.3:88
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 8383 -j DNAT --to 192.168.100.4:88
+//메모리에 정보 저장이 되나봄 : kali linux 종료시, 이 정보들 다 지워짐. 그러므로 저장작업이 필요하다!
+
+-> 이거 외부에서는 kali ip :8080 으로 확인하고, kali 내부에서는 192.168.100.1:88 로 확인해 볼 것!
+
+
+1. NAT (Network Address Traslation)
+	NAT는 외부 네트워크와 다른 IP를 사용하는 내부 내트워크에서 IP 주소를 변환하는 것입니다. 
+	NAT는 2개의 CHAIN 을 포함하는데 PREROUTING  POSTROUTING이다. 
+2. PREROUTING
+	PREROUTING은 DNAT(Destnation NAT) 즉,  외부 IP를 내부의 사설 IP 로 포워딩 하는 경우 사용 합니다. 
+3. POSTROUTING
+	POSTROUTING은 SNAT(Source NAT)즉, 내부 사설 IP 를 외부 공인 IP로 변환할 때 사용 합니다. 
+
+
+# iptables 설정 저장 (메모리에 임시 저장된 iptables를 파일로 저장)
+/sbin/iptables-save > /etc/iptables.rules
+
+# 부팅시 자동으로 iptables가 구동되도록 설정
+vi /etc/network/if-pre-up.d/iptables-restore
+	#!/bin/bash
+	cat /etc/iptables.rules
+	/sbin/iptables-restore < /etc/iptables.rules
+:wq
+
+# 권한 주기
+chmod 755 /etc/network/if-pre-up.d/iptables-restore
+
+reboot
+
+
+
+# 칼리 터미널창에서 내부 서버(192.168.100.1) 열린 TCP 포트 스캔
+nmap -sT 192.168.100.1
+
+
+
+### 칼리 eth0 IP 확인후 메모 (Snort 설치시 필요)
+
+ifconfig 192.168.42.132
+
+------------------------------------------------------------------------------------------------
+
+# Snort 설치
+apt-get update
+apt-get install snort -y
+	192.168.42.132/32
+//home network 설정!
+
+
+# Rule 다운로드, 업데이트#
+cd /tmp
+
+wget http://10.0.0.4/snortrules-snapshot-29110.tar.gz
+wget https://rules.emergingthreats.net/open/snort-2.9.0/emerging.rules.tar.gz
+
+
+tar -zxvf snortrules-snapshot-29110.tar.gz
+tar -zxvf emerging.rules.tar.gz
+
+
+cp rules/* /etc/snort/rules/
+
+
+
+# Rule 경로 지정
+vi /etc/snort/snort.conf
+	#output unified2: filename snort.u2, limit 128
+
+	/include $RULE_PATH/ 
+include $RULE_PATH/emerging-ftp.rules
+include $RULE_PATH/emerging-games.rules
+include $RULE_PATH/emerging-pop3.rules
+include $RULE_PATH/emerging-activex.rules
+include $RULE_PATH/emerging-rpc.rules
+include $RULE_PATH/emerging-icmp.rules
+include $RULE_PATH/emerging-scan.rules
+include $RULE_PATH/emerging-scada.rules
+include $RULE_PATH/emerging-voip.rules 
+include $RULE_PATH/emerging-chat.rules
+include $RULE_PATH/emerging-icmp_info.rules
+include $RULE_PATH/emerging-shellcode.rules
+include $RULE_PATH/emerging-web_client.rules 
+include $RULE_PATH/emerging-imap.rules
+include $RULE_PATH/emerging-web_server.rules 
+include $RULE_PATH/emerging-current_events.rules
+include $RULE_PATH/emerging-inappropriate.rules
+include $RULE_PATH/emerging-smtp.rules
+include $RULE_PATH/emerging-web_specific_apps.rules 
+include $RULE_PATH/emerging-deleted.rules
+include $RULE_PATH/emerging-malware.rules
+include $RULE_PATH/emerging-snmp.rules
+include $RULE_PATH/emerging-worm.rules 
+include $RULE_PATH/emerging-misc.rules
+include $RULE_PATH/emerging-sql.rules                 
+include $RULE_PATH/emerging-dos.rules
+include $RULE_PATH/emerging-netbios.rules
+include $RULE_PATH/emerging-telnet.rules              
+include $RULE_PATH/emerging-exploit.rules
+include $RULE_PATH/emerging-p2p.rules
+include $RULE_PATH/emerging-tftp.rules  
+include $RULE_PATH/emerging-mobile_malware.rules  
+include $RULE_PATH/emerging-info.rules  
+include $RULE_PATH/emerging-botcc.rules
+include $RULE_PATH/emerging-compromised.rules
+include $RULE_PATH/emerging-drop.rules
+include $RULE_PATH/emerging-dshield.rules
+include $RULE_PATH/emerging-tor.rules
+include $RULE_PATH/emerging-ciarmy.rules
+
+:wq
+
+
+##snort  test code
+vi /etc/snort/rules/local.rules
+	alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Win7IE Version Finding."; content: "Trident"; sid:1;)
+	alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Chrome Version Finding."; content: "Chrome"; sid:2;)
+	alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Firefox Version Finding."; content: "Firefox";  sid:3;)
+	//사용자기반 룰
+
+	alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "SSH brute force attack"; content: "SSH-"; detection_filter: track by_src, count 5, seconds 60; metadata: service ssh; classtype: misc-activity; sid:6;)
+	//행위기반 룰
+	//60초 동안 5번의 ssh 접속 시도는 의도가 좋지 않은 접근이다! 라는 의미
+
+-> alert, drop, pass, reject 사용 가능!
+-> pass는 이건 딱히 의미는 없는데, 정말 믿을만한 것만 설정! 로그도 안 남음
+
+
+
+chmod 755 /var/log/snort
+
+
+# Snort 실행
+snort -c /etc/snort/snort.conf -i eth0
+
+
+-> web 접속 해보고 로그 확인해 볼 것!
+
+# 로그 확인
+cat /var/log/snort/alert
+
+
+
+
+
+----------------------------------- 여기까지 확인!! -----------------------------------------
+
+
+
+
+
+# 시그니처 검색
+https://www.snort.org/docs
+
+https://threatintel.proofpoint.com/
+
+
+------------------------------------------------------------------------------
+
+
+Barnyard2 설치 (Snort 로그를 Snorby로 넘겨주는 모듈)
+
+apt-get install libpcap-dev default-libmysqlclient-dev -y
+
+cd /tmp
+
+wget http://ftp.psu.ac.th/pub/snort/barnyard2-1.9.tar.gz
+
+tar xvfz barnyard2-1.9.tar.gz
+
+cd barnyard2-1.9
+
+./configure --with-mysql --with-mysql-libraries=/usr/lib/x86_64-linux-gnu
+
+make && make install
+
+cp /usr/local/etc/barnyard2.conf /etc/snort/
+
+mkdir /var/log/barnyard2
+
+chmod 666 /var/log/barnyard2
+
+touch /var/log/snort/barnyard2.waldo
+
+chown snort.snort /var/log/snort/barnyard2.waldo
+
+cat > /etc/snort/barnyard2.conf
+config reference_file:      /etc/snort/reference.config
+config classification_file: /etc/snort/classification.config
+config gen_file:            /etc/snort/gen-msg.map
+config sid_file:            /etc/snort/sid-msg.map
+config logdir: /var/log/snort
+config hostname:  snort-ids
+config interface:  eth0
+config waldo_file: /var/log/snort/barnyard2.waldo
+input unified2
+output database: log, mysql, user=snorby password=snorby dbname=snorby host=192.168.1.200
+
+ctrl + d
+
+# Barnyard2 실행
+
+barnyard2 -c /etc/snort/barnyard2.conf -d /var/log/snort -f snort.u2 -w /var/log/snort/barnyard2.waldo
+
+# Snorby 실행
+
+root
+mode1752
+
+cd /opt/snorby-master
+
+rails server thin -e production
+
+# Snorby WebGUI 접속하기
+
+Kali 웹브라우저에서 http://192.168.1.200:3000
+
+snorby@example.com
+snorby
