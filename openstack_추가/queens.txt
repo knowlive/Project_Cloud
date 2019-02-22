@@ -1,0 +1,85 @@
+systemctl disable firewalld
+
+systemctl stop firewalld
+
+systemctl disable NetworkManager
+
+systemctl stop NetworkManager
+
+systemctl enable network
+
+systemctl start network
+
+yum update -y
+
+yum install -y centos-release-openstack-rocky
+
+yum update -y
+
+yum install -y openstack-packstack
+
+yum install -y wget
+
+wget https://bootstrap.pypa.io/ez_setup.py -O - | python
+
+-----------------------------------------------------------------
+
+ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+
+yum install rdate -y
+
+/usr/bin/rdate -s time.bora.net && /sbin/clock -w
+
+packstack --allinone --os-neutron-lbaas-install=y --provision-demo=n --os-neutron-ovs-bridge-mappings=extnet:br-ex --os-neutron-ovs-bridge-interfaces=br-ex:enp0s3 --os-neutron-ml2-type-drivers=vxlan,flat
+
+cd /etc/sysconfig/network-scripts/
+
+vi ifcfg-br-ex
+
+ONBOOT="yes"
+DEVICE=br-ex
+DEVICETYPE=ovs
+TYPE=OVSBridge
+BOOTPROTO=static
+IPADDR=192.168.88.134
+NETMASK=255.255.255.0
+GATEWAY=192.168.88.2
+DNS1=8.8.8.8
+
+service network restart
+
+. keystonerc_admin
+
+neutron net-create external_network --provider:network_type flat --provider:physical_network extnet --router:external
+
+neutron subnet-create --name public_subnet --enable_dhcp=False --allocation-pool=start=192.168.0.100,end=192.168.0.200 --gateway=192.168.0.1 external_network 192.168.0.0/24
+
+neutron router-create router1
+
+neutron router-gateway-set router1 external_network
+
+neutron net-create private_network
+
+neutron subnet-create --name private_subnet private_network 10.1.1.0/24
+
+neutron router-interface-add router1 private_subnet
+
+--------------------------------------------------------------------------------------
+
+curl http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img | glance image-create --name='cirros' --visibility=public --container-format=bare --disk-format=qcow2
+
+openstack flavor create --id 0 --vcpus 1 --ram 64 --disk 0 m1.nano
+
+while true; do echo -e 'HTTP/1.0 200 OK\r\n\r\nweb_server1' | sudo nc -l -p 80 ; done &
+while true; do echo -e 'HTTP/1.0 200 OK\r\n\r\nweb_server2' | sudo nc -l -p 80 ; done &
+while true; do echo -e 'HTTP/1.0 200 OK\r\n\r\nweb_server3' | sudo nc -l -p 80 ; done &
+
+yum -y install openstack-neutron-lbaas openstack-neutron-lbaas-ui
+
+enable_lb value in /etc/openstack-dashboard/local_settings from False to True:
+
+'enable_lb': True,
+
+systemctl restart httpd memcached
+
+reboot

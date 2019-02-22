@@ -1,0 +1,17 @@
+CPU 3
+RAM 6G
+HDD 50GB
+NIC 1 : NAT
+NIC 2 : Host-only
+
+
+Controller 터미널에서
+
+wget http://192.168.0.1/CentOS7.img
+wget http://192.168.0.1/Ubuntu16.img
+wget http://192.168.0.1/WindowsXP.img
+
+flavor
+m1.centos 1vCPU, 1024mb, 6G
+m1.ubuntu 1vCPU, 1024mb, 11G
+m1.windows 1vCPU, 1024mb, 9G

@@ -1,0 +1,2 @@
+172.16.0.131 controller controller.example.com
+172.16.0.132 compute compute.example.com
