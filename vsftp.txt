@@ -1,0 +1,32 @@
+-- vsftpd 서버 설치
+yum install vsftpd -y
+
+-- vsftpd 서비스 시작 및 등록
+systemctl start vsftpd
+systemctl enable vsftpd
+
+-- 방화벽 FTP 21 포트 열기
+firewall-cmd --permanent --add-service=ftp
+firewall-cmd --reload
+
+-- selinux 비활성하기
+vi /etc/sysconfig/selinux
+SELINUX=disabled
+
+-- FTP 사용자 추가 및 암호 설정
+adduser hali
+passwd hali
+
+-- 시스템 재시작
+reboot
+
+-- Host PC의 터미널에서 접속 및 putty.exe 파일 업로드 테스트
+ftp 192.168.0.27
+
+-- Anonymous 비활성하기
+vi /etc/vsftpd/vsftpd.conf
+anonymous_enable=NO
+systemctl restart vsftpd
+
+-- Host PC의 웹브라우저에서 접속 및 putty.exe 파일 다운로드 테스트
+ftp://192.168.0.27
