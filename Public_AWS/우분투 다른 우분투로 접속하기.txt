@@ -1,0 +1,17 @@
+<public에서 private로 접속>
+
+pem키부터 마더 우분투로 옮기고, 거기 터미널창에서 시작함
+
+chmod 400 (키이름).pem
+ssh -i (키이름).pem ubuntu@(접속하고자 하는 ip)
+
+<private에서 다른 private로 key파일 옮기기>
+
+Public 컴퓨터에서 시작
+
+ scp -i 2018_11_08_key.pem 2018-11-19.pem ubuntu@172.31.40.234:/tmp
+	(원래 pri1 접속키파일)   (옮길 pri2 키 파일)
+
+tmp에 생긴 파일 루트로 옮기기
+
+mv (파일이름) ~/

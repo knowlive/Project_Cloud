@@ -1,0 +1,43 @@
+-----DB를 각각 다른 WEB에서 사용가능하도록 만들기-----
+
+<WEB 작업>
+
+ps -aux | grep 'java'
+
+-> 자바가 돌아가고 있는지 확인하기.
+
+ls -alt /opt/tomcat/webapps/ROOT/index.jsp
+
+이게 앞에 tomcat이 소유주면 변경이 안됌. 바꿔줘야 함.
+
+
+vim /opt/tomcat/webapps/ROOT/index.jsp
+
+      String host="jdbc:mysql://10.10.3.136(여기를 접속하고자 하는 DB ip으로 바꾸기)/cloud";
+        String user="cloud";
+        String pw="mypassword";
+        Connection conn;
+        Statement stmt;
+        String sql="select * from users";
+        ResultSet rs;
+
+
+<mysql DB작업>
+
+mysql -uroot -p
+(패스워드 입력)
+
+use mysql;
+select host,user,password from user;
+
+
+| 172.31.%                                         | cloud | *FABE5482D5AADF36D028AC
+
+-> ip를 접속하고자 하는 DB ip로 바꿔야 함. (10.10.3.136)
+
+update user set host='10.10.%' where user='cloud';
+
+flush privileges;
+
+
+-> apache jsp 나옴
