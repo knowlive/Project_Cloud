@@ -1,0 +1,56 @@
+DHCP
+
+192.168.1.0/24
+192.168.1.254
+10
+100
+
+h1 dhclient
+h2 dhclient
+h3 dhclient
+h4 dhclient
+
+1. pox-dhcp와 floodlight를 혼용한 sdn 구성
+	
+	1) 구성목적
+	- pox-dhcp 동작 확인 및 측정
+	- floodlight 를 사용한 ACL 구현
+
+	2) 측정
+	- sdn 스위치와 sdn 컨트롤러 간에 openflow 프로토콜을 수집 및 분석한 결과를 작성한다.
+	- sdn 스위치와 sdn 컨트롤러 간에 Secu Channel 형성과정 측정 및 분석한 결과를 작성한다.
+	- sdn 컨트롤러의 dhcp 동작 상태 측정 및 분석한 결과를 작성한다.
+	- sdn 컨트롤러의 flow-entry를 측정하고 분석한 결과를 작성
+		--> openflow 교재를 참고하여 자세히 작성
+
+openflow호스트가 어디인지 몰라서 계속 찾고 있는 것.
+
+[첫번째 실습]
+
+0. pox-dhcp controller 켜기(91) (6633)
+1. floodlight controller 켜기(90) (6653)
+2. mininet 켜기
+3. SDN_floodlight.mn 불러오기
+4. run 해서 pox와 floodlight wireshark 측정하기
+5. floodlight_c(준) <- wireshark 192.168.0.63 측정 = SSL vpn보안으로 인해 패킷분석불가
+6. floodlight hompage는 있지만, pox-dhcp에서는 L2스위칭기능이 없어서 실제로 remote의 IP나 MAC주소 매핑이 안됌.
+
+**controller 내부망은 통신되는 게 당연하다! 
+
+-> remote의 curl과 ping이 안되는 이유 : 각가 스위치의 역할이 없기 때문. 둘 다 ip는 충돌이 안나는 ip로 받았지만 controller는 되는 반면, remote에 있는 MAC주소와 IP가 매핑이 안됌. (왜? entry에 대한 명령밖에 없기 떄문)
+
+*floodlight을 controller로 가진 곳의 정보들은 SSL vpn 보안으로 인해 wireshark에서 curl, ping이 보여지지 않는다. (원래는 보여지지 않는데 mininet은 실습용이기에 보여지는 부분이있다.) switch와 controller는 ssl별로 암호화된다.
+
+*반대로 pox-controller의 정보들은 wireshark에 그대로 보여진다.
+
+(자기것들을 볼 때, Loopback. 다른 사람과 연결된 것을 볼 때 eth0)
+
+
+[두번째 실습]
+
+1. floodlight controller 켜기(90)
+2. mininet 켜기(91)
+3. mininet.mn 불러오기 (6653)
+4. run 해서 floodlight/mininet wireshark 측정하기
+
+[SDN LAB 전부다 해보기]

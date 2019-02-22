@@ -1,0 +1,40 @@
+1. Pox-DHCP, Floodlight 
+	- ACL
+
+2. Pox-IPLoadbalance, Floodlight
+	- ACL
+	- Fi
+
+
+1. Pox-dhcp와 Floodlight를 혼용한 sdn 구성
+	1) 구성 목적
+		- Pox-DHCP 동작 확인 및 측정
+		- Floodlight를 사용한 Firewall 구현
+
+	2) 측정
+		- sdn 스위치와 sdn 컨트롤러 간에 openflow 프로토콜을 수집 및 분석한 결과를 작성
+		- sdn 스위치와 sdn 컨트롤러 간에 Secu Channel 형성과정 측정 및 분석한 결과를 작성
+		- sdn 컨트롤러의 dhcp 동작 상태 측정 및 분석한 결과 작성
+		- sdn 컨트롤러의 flow-entry를 측정하고 분석한 결과를 작성
+			--> openflow 교재를 참조하여 자세히 기록
+
+	1-1) Pox-DHCP 설정 및 실행 (한쪽 서버에서)
+	1-2) Floodlight Controller 실행 (다른 쪽 서버에서)
+	2) Miniedit에서 Pox_DHCP_Floodlight.mn 실행 (Pox Controller / Floodlight Controller / s1 (스위치) / h1-h4 (호스트 4개))
+	3) Pox를 실행하는 서버에서는 Pox Controoler IP : 로컬, 포트 : 6633 / Floodlight Controller IP : 다른 서버 IP, 포트 : 6653 사용 Floodlight 실행하는 서버에서는 반대로 세팅
+	4) h1 - h4 dhclient로 Pox DHCP에서 IP 가져오기
+	5) Floodlight Web에서 토폴로지 및 스위치 확인
+	6) 호스트 한 곳에서 SimpleHTTPServer 80을 올려서 Http 테스트 서버로 사용하고 다른 호스트에서 ping 및 curl로 확인 (Floodlight Controller를 올린 쪽에서는 ping 및 curl이 가능하지만 다른 쪽 서버에서는 불가능 #L2 스위치 설정이 안되어 있었기 때문 / 맥 주소와 IP를 매핑해줘야 하는데 Miniedit 끼리 통신이 안되서 가져오지 못하기 때문에 리모트로 사용하는 쪽의 IP 설정이 불가능 / Pox 코딩 시 DHCP 기능만 살리고 다른 기능을 다 날려버려서 리모트 받아서 사용하는 쪽에 정보를 받아올 수 없는 것임 하지만 내부에서 사용하는 것은 맥 주소나 IP를 받아올 수 있기 때문에 통신이 가능한 것)
+	7) wireshark로 확인
+
+
+2. Miniedit + Floodlight
+Loopback	eth0
+
+	1) Floodlight Controller 실행
+	2) Miniedit에서 miniedit.mn 실행 (Floodlight Controller / s1 (스위치) / h1-h3 (호스트 3개))
+	3) Floodlight를 실행하는 서버에서는 Floodlight Controoler IP : 로컬, 포트 : 6653, 리모트 서버에서는 Floodlight 서버 IP 기입
+	4) Miniedit에서 pingall로 트래픽 생성 후 리모트 서버에서 wireshark로 icmp가 보이는지 확인(SSL 통신을 하기 때문에 보이지 않음)
+
+
+Miniedit와 Pox를 wireshark와 dump flow로 확인
