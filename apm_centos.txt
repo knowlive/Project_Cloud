@@ -1,0 +1,101 @@
+-- APM (Apache, PHP, MariaDB) 설치하기
+
+yum install httpd mod_ssl php php-cli mariadb-server php-mysql -y
+
+-- 서비스 설정
+
+systemctl enable httpd.service
+systemctl enable mariadb.service
+systemctl start httpd.service
+systemctl start mariadb.service
+
+-- 방화벽 설정
+
+firewall-cmd --permanent --add-service=http
+firewall-cmd --permanent --add-service=https
+firewall-cmd --reload
+
+-- MariaDB 관리자 설정
+
+mysql_secure_installation
+
+
+# Wordpress 설치하기
+
+-- 사용자 및 그룹 추가하기
+useradd wordpress
+groupadd wordpress
+
+-- wordpress 다운로드
+yum install wget -y
+wget https://wordpress.org/latest.tar.gz
+tar zxvf latest.tar.gz -C /var/www/html
+chown -R wordpress:wordpress /var/www/html/wordpress
+vi /etc/httpd/conf/httpd.conf
+
+<VirtualHost *:80>
+    ServerName wordpress.example.com
+    ServerAlias wordpress.example.com
+    DocumentRoot "/var/www/html/wordpress/"
+    ErrorLog logs/wordpress-error_log
+    CustomLog logs/wordpress-acces_log common
+</VirtualHost>
+:wq!
+systemctl restart httpd
+
+-- wordpress 계정
+
+mysql -uroot -p
+
+--MySQL DB 생성
+CREATE DATABASE wordpress CHARACTER SET utf8 COLLATE utf8_bin;
+
+-- User 생성
+grant all privileges on wordpress .* to 'username'@'localhost' IDENTIFIED BY 'password';
+
+cd /var/www/html/wordpress
+cp wp-config-sample.php wp-config.php
+vi  wp-config.php
+
+-- 변경전
+define('DB_NAME', 'database_name_here');
+/** MySQL database username */
+define('DB_USER', 'username_here');
+/** MySQL database password */
+define('DB_PASSWORD', 'password_here');
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+-- DB 설정 수정후
+define('DB_NAME', 'wordpress');
+/** MySQL database username */
+define('DB_USER', 'username');
+/** MySQL database password */
+define('DB_PASSWORD', 'password');
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+https://api.wordpress.org/secret-key/1.1/salt/에 브라우저로 연결하여 생성된 salt를
+wp-config.php 의 기존 salt 설정에 덮어쓴다.
+
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
+
+-- 워드프레스가 첨부 파일이나 이미지등을 저장하는 폴더인 uploads 폴더를 생성한다.
+mkdir /var/www/html/wordpress/wp-content/uploads
+
+-- apache server 가 upload 에 쓸 수 있게 권한을 부여한다.
+setfacl -R -m u:apache:rwx wp-content/uploads
+
+-- SELinux에서 apache 가 DB 에 연결 가능하게 설정하기
+setsebool -P httpd_can_network_connect_db on
+
+-- 웹브라우저로 IP 접속하여 설치완료 확인하기
+http://192.168.0.27
+
