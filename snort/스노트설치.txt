@@ -1,0 +1,55 @@
+snort 설치 (CentOS7_64) IDS/IDPS
+
+1. 필수 라이브러리 설치
+# yum install gcc flex bison zlib libpcap pcre libdnet tcpdump
+# yum install https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/l/libnghttp2-1.31.1-1.el7.x86_64.rpm
+# ln -s /usr/lib64/libdnet.so.1.0.1 /usr/lib64/libdnet.1
+
+2. Snort 엔진
+# yum install https://snort.org/downloads/snort/daq-2.0.6-1.centos7.x86_64.rpm                      
+# yum install https://snort.org/downloads/snort/snort-2.9.12-1.centos7.x86_64.rpm
+
+3. Snort, 기타룰 적용
+# cd /tmp
+# wget ftp://192.168.11.6/snortrules-snapshot-29120.tar.gz
+# wget https://rules.emergingthreats.net/open/snort-2.9.0/emerging.rules.tar.gz
+# tar -zxvf snortrules-snapshot-29120.tar.gz
+# tar -zxvf emerging.rules.tar.gz
+# cp rules/* /etc/snort/rules/
+
+
+4. 사용자 룰 넣기
+# vi /etc/snort/rules/local.rules
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "Chrome Version Finding."; content: "Chrome"; sid:2;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET 22 (msg: "SSH Contact"; sid:4;)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg: "SSH Contact"; sid:5;)
+
+
+5. Snort 실행
+# snort -V
+# snort -c /etc/snort/snort.conf -i ens192
+
+에러 발생 ! 라인 253 dynamic 룰, 512 주석처리 white/black list 주석
+
+6. 접속 검증
+
+크롬에서 웹서버 접속 테스트
+
+7. Snort 로그 확인
+# cat /var/log/snort/alert
+
+8. Snort 실시간 로그 확인
+# tail -f /var/log/snort/alert
+
+---- snort.conf 설정
+
+# Setup the network addresses you are protecting
+ipvar HOME_NET 192.168.158.140/32
+
+# Set up the external network addresses. Leave as "any" in most situations
+ipvar EXTERNAL_NET !$HOME_NET
+
+# Snort IPS 구현 명령어
+snort -l /var/log/snort -b -c /etc/snort/snort.conf -i ens192:ens224 -Q --daq afpacket --daq-mode inline --daq-var buffer_size_mb=1024
+
+SURICATA (IPS) 스노트의 대항마
