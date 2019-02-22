@@ -1,0 +1,79 @@
+XFCE 데스크톱 만들기
+
+-- 레포지토리 다음카카오로 설정
+sudo cp /etc/apt/sources.list ~/sources.list.old
+sudo sed -i 's/kr.archive.ubuntu.com/ftp.daumkakao.com/g' /etc/apt/sources.list
+sudo diff ~/sources.list.old /etc/apt/sources.list | wc -l
+38
+
+-- 주분투 데스크톱 설치
+sudo apt update && sudo apt-get install --no-install-recommends xubuntu-desktop -y
+
+-- 자동 해상도 설정 프로그램 설치
+sudo apt install open-vm-tools-desktop -y
+
+-- 그놈 터미널 설치
+sudo apt install gnome-terminal -y
+
+isolation.tools.copy.disable = false
+
+isolation.tools.paste.disable = false
+
+-- 구글 크롬 설치
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt-get install libxss1 libgconf2-4 libappindicator1 libindicator7 fonts-liberation libnspr4 libnss3 -y
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+-- 특정사용자에게 관리자 권한 사용시 비밀번호 묻지 않기
+echo "johnlee ALL = (root) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/johnlee
+sudo chmod 0440 /etc/sudoers.d/johnlee
+
+-- 휴지통 설치
+sudo apt install trash-cli -y
+
+-- 한글 입력 지원
+
+sudo apt install fonts-nanum* -y
+sudo apt-get install fcitx-hangul -y
+
+---------------------------------------------------------------------------------------------------------------
+
+
+-- 네트워크 인터페이스 설정
+sudo vi /etc/network/interfaces
+
+auto eth0
+iface eth0 inet dhcp
+
+-- NIC 이름 바꾸기
+sudo vi /etc/default/grub
+
+#GRUB_CMDLINE_LINUX=""
+#to
+
+GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0"
+#and, finally:
+
+sudo update-grub
+#and reboot your system:
+
+-- 한글 입력 지원
+
+sudo apt-get install gvfs dbus --no-install-recommends -y
+sudo apt install fonts-nanum* -y
+sudo apt-get install fcitx-hangul -y
+
+
+
+-- 저장소 업데이트 및 프로그램 업그레이드
+sudo apt update && sudo apt upgrade -y
+
+sudo reboot
+
+우분투 다운로드 사이트 : http://mirror.kakao.com/ubuntu-releases/xenial/
+
+isolation.tools.copy.disable = false
+
+isolation.tools.paste.disable = false
+
+
