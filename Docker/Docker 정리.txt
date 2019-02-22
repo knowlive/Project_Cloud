@@ -1,0 +1,57 @@
+[Docker에서 nginx->tomcat통해 git-php랑 db연결하기]
+
+0. EC2 인스턴스 만들고 로드밸런스 만들어서 elb연결. 리스너 443포트의 301경로로 리다이렉션해주기
+route53가서 git.______, movie2.________ 등등 도메인 elb랑 연결해주기
+
+1. EC2에 docker 설치(EC2에는 오로지 docker만 설치함. nginx, apache2설치안함)
+
+2. nginx 컨테이너 만들기
+- 만들때 docker network 만들어서 컨테이너 공통으로 지정해주기, 80번포트 열기
+- nginx 설치 (update, upgrade 필수)
+
+3. git-php 컨테이너 만들기
+- network 설정, 포트 안열음.
+- nginx 설치 (update, upgrade 필수)
+- git, php7.3-fpm, iputils-ping 설치
+- /var/www/html 아래로 가서 git clone https://_____ 로 가져오기
+- git pull 로 git 바뀐 것 있는지 확인
+- git mysql-php 설치 (db에서 가져오기위한)
+- /etc/nginx/sites-available -> vim default 에서 index.php 넣어주고 경로 끝을 cloud-group 넣어주기.
+(+php location 주석 없애서 경로 만들기)
+- nginx, php7.2-fpm 재시작 
+
+4. nginx 컨테이너랑 git-php 연결하기
+- nginx에서 /etc/nginx/sites-available 에 git-php만들어주기
+- 포트 server_name 바꾸기. 80번 뒤에 있는 것도 지우기, proxy_pass http://git-php/; 로 로케이션잡기
+- sites-enabled 에서 ln -s 로 git-php 심볼릭 링크 잡아주기
+- nginx에서 다시 nginx 리스타트, git-php에서 php 리스타트
+-> 화면이 각 도메인 php로 나와야함.
+
+5. tomcat 컨테이너 만들기
+- network 설정, 포트 안열음.
+- openjdk 설치 및 tomcat 설치해서 압축 풀기
+- filezila로 db.jsp랑 tomcat 컨테이너 /opt/로 옮기기 -> tomcat/webapps/ROOT/index.jsp를 db.jsp로 바꿔주기
+- mysql-connecter설치 및 다시 tomcat 시작
+
+6. db 컨테이너 만들기
+- filezila로 cloud.sql랑 db 컨테이너 /tmp/로 옮기기
+- mariadb 설치 및 mysql시작. 
+- 새 유저 만들어서 아이디랑 패스워드 바꿔주기 (cloud/password) -> flush privileges 잊지말기
+- cloud db만들어서 cloud.sql적용.
+- etc/mysql/mariadb.conf.d/50-server.cnf에서 bind-address = 0.0.0.0 모두로 바꾸기
+- mysql 리스타드
+
+7. tomcat과 db연동
+- tomcat 컨테이너에서 tomcat/webapps/ROOT/index.jsp(아까 db.jps바꾼거) 에서 db에서 설정한 cloud db, cloud user, pw password로 바꾸기
+
+8.tomcat-____(db항목) 들을 만들기
+- tomcat-____컨테이너 만들기. network 설정 열기, 포트는 열어도 되고 안해도 되고.(8080)
+- opt/tomcat/webapps/ROOT/index.jsp 에서 String sql="select * from ____"; 의 빈칸만 바꿔주면 됨
+- nginx 와서 site-available 에서 default 복사 tomcat-____ 파일 만들어서 서버네임, 로케이션 프록시패스 tomcat-_____:8080;으로 바꾸기
+- nginx 다시 시작
+
+9. EC2끼리 로드밸런스 연결하고 확인해보기
+- 대상 그룹에서 아래 메뉴의 대상들어가서 인스턴스 추가해주기! 
+- 첫번째 인스턴스에서 이미지 뜬 걸로 두번째 인스턴스의 컨테이너들을 만든다.(이름도 똑같이!)
+- 각 nginx로 들어가서 tail -f /var/log/nginx/access.log 를 치고, 도메인에 새로고침해서 둘다 번갈아가면서 신호가 오는지 확인.
+(처음에는 조금 시간이 걸린다. -> 혹은 index.php 에서 리눅스 뒤에 인스턴스 고유코드가 바뀌는지 확인하기.)
