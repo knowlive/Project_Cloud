@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene1211313131122)간이정수기를 다 만들어 이장에게 보여주었다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장은 걸러져 나온 깨끗한 물을 보며 약간 미심쩍어 하며 물맛을 보았다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러자 이장의 얼굴이 구겨지며 처음 만든 간이정수기와 다르다며 여전히 중금속맛이 난다며 화를 냈다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러자 나는 다를 리가 없다며 그 자리에서 처음 만든 간이정수기를 분해해보았다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 처음 만든 간이정수기에는 모래사이에 녹슨 쇠못들이 나왔다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="건축자재들이 마구잡이로 널려있는 통에 우연히 들어갔는지 어쨌는지 몰라도 쇠못이 들어가 있었다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="쇠못이 들어가 있을 때 중금속이 없어졌으니 쇠못을 넣어야 물에서 중금속이 빠져 나가나 보다……."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 사실을 몰랐던 나는 당황했고 내가 모르고 있다는 사실을 알 턱이 없는 이장은 화가 나서 나를 마을 밖으로 내쫓았다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/81211313131122_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을 밖으로 나가자 황량한 산밖에 없었고 물을 얻기 위해 나는 다른 도시를 찾아 헤맸다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 다른 도시는 쉽게 나오지 않았고 끝없는 산만이 이어져 내 목과 함께 정신은 서서히 서서히 날아가기 시작했다……."/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131122_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[이제 참는데에는 도가 텄다.]"/>
+		</LinearLayout>

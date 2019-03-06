@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111221_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene141131313111221)마을을 빠져 나간 나는 도시를 찾아 나선다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111221_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 책을 찾지 못 했다."/>
+       	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111221_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="앞으로 이곳에서 어떻게든 살아가야 한다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111221_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을 밖으로 나가자 황량한 산밖에 없었고 물을 얻기 위해 나는 다른 도시를 찾아 헤맸다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111221_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 다른 도시는 쉽게 나오지 않았고 끝없는 산만이 이어져 내 목과 함께 정신은 서서히 서서히 날아가기 시작했다……."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111221_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Ending4]"/>
+		</LinearLayout>

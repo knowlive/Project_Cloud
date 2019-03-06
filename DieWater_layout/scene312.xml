@@ -1,0 +1,88 @@
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene312_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene312)오토바이를 타고 십분 쯤 달렸을까 갑자기 오토바이가 중심을 읽어서 비틀거리다 쓰러진다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene312_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="희미한 정신을 붙잡고 있자니 오토바이의 앞바퀴가 펑크 난 채 쓰러져 있었다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene312_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="멀리서 군인들이 저벅저벅 걸어오는 게 보인다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene312_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="오래돼서 시끄러운 오토바이소리가 군인들의 주목을 끌어 저격 대상이 된 것 같다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene312_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 결국 정신을 잃은 채 생포되었다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene312_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정신이 들었을 때는 감옥 같은 곳에 갇혀 있었다."/>
+	
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene312_7"
+         	    	android:src="@drawable/basis1_2_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener4121"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene312_8"
+           	    	android:src="@drawable/basis1_2_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener4122"/>
+		</LinearLayout>

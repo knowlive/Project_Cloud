@@ -1,0 +1,242 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene311)트럭이 큰길을 따라 달리더니 골목을 돌아 이곳저곳을 달리며 마을을 벗어났다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="전쟁이 난 도시가 점점 멀어지는 것이 보이자 안심되기 시작했다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="긴장된 몸이 풀린 탓일까 눈꺼풀이 무거워온다."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이제 트럭은 마을을 완전히 벗어나 어느 도로를 달리고 있다."/>
+										    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 도로의 몽롱한 가로등 빛과 자장가 같은 트럭의 엔진소리에 쓰러지듯 잠에 빠져들었다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="잠깐 자는 중"/>
+    		
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘덜커덩’"/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="트럭이 크게 요동치는 바람에 잠에서 깼다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="트럭은 어딘지 모르는 황량한 곳을 달리고 있다. "/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이곳은 어딜까? 산이 보이고 작은 물소리가 들리는 것도 같다."/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아 맞다! 그 책!"/>
+					    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정신이 없었던 탓인지 책의 존재를 까맣게 잊고 있었다."/>
+										    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="가슴팍에 있던 책을 꺼내 들었다."/>
+															    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 책은 집에 가는 길에 어떤 남루한 차림의 사람에게 받은 것이었다."/>
+																				    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="거지를 보고 기부를 할 겸 주머니에서 천원을 꺼내 준다는 것이 만원을 꺼내서 줬는데, 그 때 그는 고맙다며 내게 책 한권을 주었다."/>
+    																					    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마치 유령에 홀린 듯이 그 책을 받았었다."/>
+					    																					    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게 도착하자마자 읽으려고 보니 이런……. 영어 책이라니……."/>
+	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책을 책상위에 아무렇게나 던져둔 채로 저녁이나 먹었었다."/>
+						
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="저녁을 먹고 심심해서 한번 읽어나 볼까 하는 생각에 책을 들어 첫 페이지를 넘겼었다."/>
+						
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘책의 길을 따라 미래의 길을 여행해보지 않을래?’라는 정체 모를 글과 그 밑에 다른 사람들이 쓴 것 같이 보이는 동그라미와 엑스들이 너저분하게 쓰여 있었다."/>
+						
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="장난스러운 마음으로 동그라미를 체크를 하는 순간 책이 나를 빨아들이는 것 같은 기분이 들었고……."/>
+						
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고 기억이 나지 않는다.……."/>
+						
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene311_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="설마 내가 책 안으로 들어온 것인가? "/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene311_24"
+         	    	android:src="@drawable/basis3_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener4113"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene311_25"
+           	    	android:src="@drawable/basis3_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener4113"/>
+		</LinearLayout>

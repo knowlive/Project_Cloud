@@ -1,0 +1,268 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene4113)정말 말도 안 되지만 ‘설마가 사람 잡는다’라는 말도 있으니 책을 조금 읽어보기로 했다. "/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘2173년 지구는 물이 고갈되어 각 나라들은 물이 있는 지역을 중심으로 쪼개지고 각 지역은 물로 인한 싸움이 벌어진다.’"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="……."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이미 다들 멀리 도망갔는지 사람들의 행렬이 쉬이 보이지 않는다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="몇 장 넘겨서 더 읽어 봐야겠다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘물 사업을 하는 주인공은 빌딩에서 낮잠을 자던 중 내전이 발생하고 전쟁 중에 홀로 남게 된다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="뭔가 내 상황이랑 비슷하군……."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘전쟁을 피해 달아나던 주인공은 오토바이와 트럭을 발견하고 출발하는 트럭 뒤에 무임승차하여 전쟁을 피해 달아나게 된다.’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘뭐지 상황이 너무 겹치는데…… 아니, 이건 그냥 판박이잖아!’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘진짜 내가 책속에 들어온 건가?’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘그럼 책을 읽으면, 책에서 빠져 나올 수 있는 방법을 찾을 수 있을지도 몰라. 더 읽어 보자.’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그때 갑자기 덜커덩 하는 소리와 함께 트럭이 크게 흔들려 책을 놓치고 책은 물건들 사이의 틈으로 미끄러져 들어가 버린다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="운전사의 운전 실력을 욕하며 책을 꺼내려고 하는데 운전사의 말소리가 들려왔다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="트럭 안에 물이 새는지 정체모를 물소리가 들려 잘 안 들렸지만, 나는 귀를 쫑긋 세워 듣기 시작했다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“아니 전쟁이 났다니까요. 이장님”"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“네, 네, 아니요 다행히 물건들은 챙겨서 도망 나오는 길입니다.”"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“네?! 우리도 곧 위험해 질것 같다고요? 네 알겠습니다. 네 거의 다 왔습니다.”"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="……."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="뭐지……. 전쟁을 피한 줄로만 알았는데 전쟁을 맞이하러 가는 이 분위기는……."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="진짜 책에 쓰여 있는 것처럼 이곳저곳에서 전쟁이 나고 있다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아무리 생각해도 내가 책속으로 들어온 것이 맞는 것 같다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 전쟁들을 피하려면 얼른 책을 읽어버리는 방법밖엔 없는 것 같다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="급한 마음이 들어 물건들 사이의 틈으로 미끄러져 들어간 책을 찾아보자."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘찾았다. 이제 읽어봐야지!’"/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘근데……트럭이 마을에 곧 도착한다고 했는데…….’"/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4113_26"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘지금 트럭에서 내려 책을 마저 읽을까? 아니면 트럭이 멈추기 전에 후다닥 읽어버릴까?’"/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene4113_27"
+         	    	android:src="@drawable/basis4_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener51131"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene4113_28"
+           	    	android:src="@drawable/basis4_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener51132"/>
+		</LinearLayout>

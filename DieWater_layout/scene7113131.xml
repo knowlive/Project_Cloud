@@ -1,0 +1,240 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene7113131)“저기요, 제발 저 좀 숨겨주세요……. 부탁할게요.”"/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“저기 장롱 안에 숨으세요.” "/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 큰 눈을 초롱초롱하게 뜨며 나에게 속삭인다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="착한 여인이 나의 마음을 알아 준 것일까."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="이동중"/>
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 떨리는 손을 붙잡고 장롱 안에 숨어 숨죽이고 있으려니 나의 심장소리가 쿵쾅거리며 크게 들려온다. "/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="밖에서 나는 소리를 들어보려고 노력했으나, 잘 들리지 않았다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마음을 가라앉히고 다음 상황을 알아보기 위해 책을 펼치려고 하는데……."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="'끼이이이익'"/>
+					
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="기절중"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘으으…….’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정신을 차려보니 어둡고 습기가 가득 찬 공간에 있다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘어떻게 된 거지…….’"/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 마지막으로 본 것은 내가 숨은 장롱을 가리키는 여인과……."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내게 개머리판을 휘두르는 군인의 모습이었다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="지하실 같은 곳에 갇힌 건가? 모르겠다. 머리만 아파온다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책을 보면 어떻게 된 영문인지 알 수 있을 것이다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어, 가만 보니 책이 없어졌다!!!"/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘어디 간 거지, 군인이 가져간 건가? 여인이 가져간 건가?’"/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="날 속인 여인에 대해 화가 났다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="하지만, 무엇보다도 내가 갖고 있는 책이 없어졌다는 사실에 더 화가 났다."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 위기에서 빠져나갈 유일한 단서인데……."/>
+																			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113131_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 과연 무사히 돌아갈 수 있을까?"/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene7113131_24"
+         	    	android:src="@drawable/basis7_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+					android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener81131313"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene7113131_25"
+           	    	android:src="@drawable/basis7_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener81131313"/>
+		</LinearLayout>

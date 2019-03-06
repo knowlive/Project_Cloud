@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene911313131)여인이 준 물을 마시려니 꺼림칙하다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그런데 안마시고 있자니 목이 마르다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="지하실 주변을 둘러보니 번뜩 생각나는 게 있다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘그래! 간이정수기를 만들자!’"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="둘러보니 무슨 공사를 하려고 했는지 여기저기 건축자재들이 보인다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="간이정수기를 만들 때 쓰이는 모래, 자갈, 숯 등도 여기저기 널려있다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="굴러다니는 페트병 하나를 줍고 옷을 조금 찢어 페트병 입구를 막고 그 안에 모래, 숯, 모래, 자갈 순으로 넣는다. 이제 물을 붓기만 하면 된다.……."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313131_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그런데 이게 정수하는데 시간이 오래 걸리는 것이 문제다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/911313131_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물이 다 걸러지기도 전에 여인이 들어와서 수상한 물건이라며 가져가버릴 것 같다."/>	
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene911313131_10"
+         	    	android:src="@drawable/basis9_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener10113131311"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene911313131_11"
+         	    	android:src="@drawable/basis9_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener10113131321"/>
+		</LinearLayout>

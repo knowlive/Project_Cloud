@@ -1,0 +1,98 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene321)생포되어 지하실에 갇힌 나는 자는 척 누워 몰래 책을 읽기 시작했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책을 보니 나는 지하실을 빠져나와 도망치는 것이 안전했다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이런……. 다음엔 어떻게 해야 되지’ "/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="읽으려는 순간 갑자기 그림자가 드리워진다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="군인이 꼼지락 거리는 나를 보고 내게 다가온 것이다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 책을 뺏겼고 군인들은 영어로 된 책에는 흥미가 없는지 나의 책에 불을 질렀다."/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="더 이상 방법이 없다……."/>
+    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내 몸이 서서히 사라져 갔다."/>
+			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>														
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene321_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[으앙쥬금]"/>
+
+		</LinearLayout>

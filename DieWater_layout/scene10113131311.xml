@@ -1,0 +1,360 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene10113131311)기다리는 중"/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물을 붓고 조금 기다리니 정수 된 물이 한 방울 두 방울 떨어지기 시작한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 얼른 한 방울씩 떨어지는 물에 입을 가져다 대서 마셔보았다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="달달하다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="역시 여인이 준 물은 오염된 물이었다. 달달한 물을 마시니 이제야 좀 살 것 같다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="조금씩 마시니 목이 더 말라서 물이 어느 정도 걸러지면 마시려고 여인이 가져다 준 컵을 놓고 정수가 되길 기다렸다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘끼이이이익’"/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그녀다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/810113131311_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물이 반도 안찼는데!"/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="갑작스레 나타난 여인에 내심 당황했지만, 나는 애써 아무렇지도 않은 표정을 고수하며 슬그머니 정수기를 등 뒤로 숨겼다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 행운의 여신은 내 편이 아니었다."/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우울하게도 여인은 등 뒤의 정수기를 쉽게 찾아냈다."/>
+    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정수기를 보며 갸우뚱거리던 그녀는 정수기를 가져온 식기와 함께 들고 유유히 방을 빠져나갔다."/>
+    	    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘젠장…….’"/>
+					    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="힘들게 만든 간이 정수기를 허무하게 빼앗기고 말았다."/>
+					    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="자는 중"/>
+					    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="하루가 지났다."/>
+										    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="보초병이 갑자기 나를 풀어준다."/>
+										    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 어찌된 영문인지도 모른 채 트럭을 운전했던 보초병을 따라 지하실을 나왔다."/>
+										    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“지금 어디로 나를 데려가는 것 입니까?”"/>
+															    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“이장님이 당신을 방으로 불렀네.”"/>
+															    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장의 집에 가는 길에 주위를 살펴보았더니 집 입구에 주차되어 있는 트럭이 보인다."/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="이동 중"/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게 보초병을 따라 이장의 방으로 도착했다."/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장 방에 들어서는 순간 큰 책장이 시야에 들어왔다."/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_26"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책장을 바라보는데 내 책이 책장에 꽂아져 있다."/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="눈이 동그래져 책을 보고 있는데 이장이 나에게 말을 건다."/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_27"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“네가 깨끗한 물을 만든다고 딸아이가 그러던데, 정말인가?”"/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_28"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“예, 깨끗한 물을 만들 수 있습니다.”"/>
+																									    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_29"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마치 책을 발견 하지 않은 척 하며, 아무렇지도 않게 대답했다."/>
+																									    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_30"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러자 이장이 내게 거래를 요청한다."/>
+																									    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_31"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“집집마다 간이정수기를 만들어주면 자네를 풀어주겠네. 아니면 계속 지하실에 갇혀있게나!”"/>
+																									    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_32"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="듣자마자 이건 억지다. 라는 생각이 들었지만 어쩔 수 없었다."/>
+																														    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_33"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="계속 지하실에 갇혀있던지 간이정수기를 만들던지 둘 중 하나 고르라는 건가?"/>
+																														    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_34"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘정수기를 만들어서 이장의 신임을 얻으면 책을 받을 수 있지 않을까?’"/>
+																														    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_35"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘그런데 지하실의 건축자재를 이용하면 탈출 할 수도 있을 것 같은데…… 간이정수기를 다 만들고 나면 이장이 풀어 줄 거라는 보장도 없고…….’"/>
+																														    			
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_36"
+         	    	android:src="@drawable/basis10_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener111131313111"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene10113131311_37"
+         	    	android:src="@drawable/basis10_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener11131313112"/>
+		</LinearLayout>

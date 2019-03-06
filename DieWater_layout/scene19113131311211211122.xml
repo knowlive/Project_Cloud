@@ -1,0 +1,191 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene19113131311211211112_1)“우물물이 말라가서 계곡물을 차지하기 위해서는 전쟁을 계속 할 수밖에 없어.”"/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="계곡의 상류는 전쟁의 영향을 덜 받았기 때문에 산중턱의 계곡물처럼 더럽지 않다는 것이다. "/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그럼 휴전을 하고 함께 계곡에 널려있는 전쟁쓰레기부터 치워요.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“무의미해.”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우리 마을의 이장과 쌍둥이 같은 옆 마을 이장은 고개를 저었다. 그리곤 말이 없다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="심각하게 생각하는 듯 보였다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“만일 간이정수기를 만들고 싶으면 내일 계곡으로 내려가서 쓰레기를 주워주세요.”"/>
+							
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장에게 부탁하고 우리 마을을 향하여 돌아왔다."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장이 날 잡을 줄 알았는데, 순순히 보내준다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="혹시 내 말이 설득된 것일까."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을에 가니 여인이 나를 맞이한다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인의 얼굴을 찬찬히 살펴보니 여인의 눈에 눈물이 고인 것이 보인다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 그냥 계곡물을 끌어온 것만으로 만족하고 책은 잊은 채 살아가기로 했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“왜 그렇게 위험한 짓을 한 거야.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="다음날"/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="옆 마을에서 정말 쓰레기를 주우러 올까."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211122_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 어떻게 할까?"/>
+
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene19113131311211211122_18"
+                   android:src="@drawable/basis19_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="쓰레기를 주우러간다." 
+                   android:onClick="myListener201131313112112111221"/>
+                   
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene19113131311211211122_19"
+                   android:src="@drawable/basis19_2" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="쓰레기를 주우러 가지 않는다." 
+                   android:onClick="myListener201131313112112111222"/>
+
+
+		</LinearLayout>

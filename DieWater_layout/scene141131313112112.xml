@@ -1,0 +1,442 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene141131313112112)빨랫감이 너무 많으니까 그냥 한꺼번에 해서 시간을 단축하자."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="빨래를 하려고 보니 강가에 반짝이는 금속성 물질이 여기저기 널려있다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="왜 강가에 금속성 물질이 있는지 모르겠다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="금속성 물질 때문에 강바닥에 두고 빨래를 할 수 없을 것 같은데 어쩌지……."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아! 그래! 가져온 통을 이용하자!"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="통에 빨래를 던져두고 숯으로 만든 잿물을 붓는다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“저도 도와드릴게요.”"/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인의 따뜻한 한 마디에 더없이 고마워졌다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/8141131313112112_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="통에 같이 들어가서 빨랫감을 발로 열심히 밟았다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그런데 열심히 빨래에 집중 하는 도중, 갑자기 여인이 나를 넘어뜨리려고 하는 게 아닌가."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“아이, 어제 내 얼굴에 숯 묻힌 복수에요.”"/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 넘어지지 않으려 손을 허우적대다가 나도 모르게 여인의 손을 잡았고 그 순간 우리는 함께 빨래위로 나뒹굴어 넘어지고 말았다."/>
+    	          	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="꺄아아악"/>
+					  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="으……."/>
+					  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정신을 차리고 보니 내 밑에 깔린 여인의 얼굴이 보인다."/>
+					  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“빨리 비켜요.”"/>
+					  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인의 얼굴에 갑자기 홍조가 띈다. "/>
+					  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어,……. 어, 미안."/>
+					  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="재빨리 일어나 여인을 일으켜줬다."/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이제 빨래에 집중해야지."/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="빨래 중"/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="빨래를 어느 정도 끝냈다."/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“도와줘서 고마워”"/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인 덕분에 시간도 많이 단축되고 힘도 덜 들었다."/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이제 마을로 돌아가야겠다."/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_26"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“아까 넘어트린 거 미안해요.”"/>
+										  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_27"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 고개를 숙이며 힘없이 대답한다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_28"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“험험……. 아니야.…….”"/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_29"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="빨래를 끝내고 마을로 돌아오는 내내 우리 사이에 묘한 기류가 흐르고 있는 게 느껴졌다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_30"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을에 도착했다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_31"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“먼저 들어갈게요.…….”"/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_32"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그래, 빨래 도와주느라 고생 많았을 텐데, 집에 들어가서 쉬어.”"/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_33"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인은 재빨리 집으로 돌아가는 듯 보였다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_34"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="몸이 천근만근해서 한시 빨리 쉬고 싶지만, 빨래를 말려야 한다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_35"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="건조 중"/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_36"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="잿물로 빨래를 해서 그런지 때가 쏙 빠진 옷들이 제 색을 빛내고 있었다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_37"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이를 보고 이장은 나를 다시 자신의 방으로 부른다."/>
+															  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_38"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장의 방에 가니 잠시 잊고 있던 내 책이 책장 위에 있었던 것이 생각났다."/>
+																				  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_39"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아직 그 책이 그대로 있다."/>
+																				  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_40"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="지금까지 이장이 시킨 대로 간이정수기도 만들러 다니고, 마을빨래도 다해서 신임도 많이 얻은 것 같다."/>
+																				  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_41"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“제가 책을 다시 돌려받을 수 있을까요?”"/>
+																				  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_42"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="최대한 조심스레 여쭈어봤다."/>
+																				  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_43"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“책을 주겠네, 대신 마을의 문제하나를 해결해 주게.”"/>
+																									  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_44"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="언제까지 나를 부려먹을 생각인건가."/>
+																									  	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_45"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을의 문제를 해결해서 이장의 신임을 얻을까? 아님 해결해 준다고 거짓말을 하고 오늘밤 책을 몰래 빼올까?"/>
+
+				<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_46"
+         	    	android:src="@drawable/basis14_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener141131313112111"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene141131313112112_47"
+         	    	android:src="@drawable/basis14_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener141131313112112"/>
+   
+		</LinearLayout>

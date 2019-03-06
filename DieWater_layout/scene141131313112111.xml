@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene141131313112111)빨래를 색깔별로 하면 빨랫감의 색이 섞이지 않아서 지금껏 빨래할 때 색깔별로 해왔었다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘빨리 끝내는 것보다 깨끗하게 빨래하는 것이 이장의 신임을 얻을 것 같다.’"/>
+       	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="빨래 중"/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="하얀색과 검정색의 빨래만을 했을 뿐인데 이미 날이 저물어 간다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 다음날 하자고 했으나 여인이 오늘 다 하지 않으면 다시 일주일을 기다려야 된다고 한다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 나와 여인은 쉴 틈 없이 계속 빨래를 한다."/>
+										    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그때 어디선가 ‘다다다’하는 총 쏘는 소리가 들린다."/>
+										    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘아! 이곳은 전쟁 중 이었지’"/>
+										    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나와 여인은 재빨리 바위 밑으로 몸을 숨겼다."/>
+															    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="일단 이곳에서 도망쳐야 한다."/>
+						
+				<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_11"
+         	    	android:src="@drawable/basis13_1_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener1411313131121111"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene141131313112111_12"
+         	    	android:src="@drawable/basis13_1_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener1411313131121112"/>
+		</LinearLayout>

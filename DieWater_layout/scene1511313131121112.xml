@@ -1,0 +1,117 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene151131313112112_1)빨래를 가지고 도망치기엔 군인들에게 잡힐 것 같아 몸이라도 빠져 나오기로 했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내 몸이 더 중요 하다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="발에 불이 나도록 뛰어 마을로 들어섰을 땐 이장이 눈을 부릅뜨고 나를 노려보고 있었다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“감히 자네가 내 딸을 위험에 처하게 해? 거기다가 마을의 옷가지들도 모두 버리고 온겐가?  무슨 생각으로 그리한겐가! 말해보게”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장이 크게 분노했다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장에게 책을 받으려면 빨래를 가지러 다시 계곡에 가야한다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="하지만 계곡에서 옆 마을 군인들에게 잡히고 말았다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다시 마을로 돌아가지도 못하고, 책을 돌려받지도 못하고……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다시 마을로 돌아가지도 못하고, 책을 돌려받지도 못하고……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 책 밖으로 돌아갈 수 있는 방법들이 모두 사라졌다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="[Game Over]"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121112_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="[인내심의 한계를 경험 중]"/>
+
+
+		</LinearLayout>

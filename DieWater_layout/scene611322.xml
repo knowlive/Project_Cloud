@@ -1,0 +1,79 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene611322)다리가 아파 잘 올라가지 못한다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그래서 피가 나는 다리를 옷으로 꽉 묶어 고정시켰다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="절벽 위로 조금씩 조금씩 힘겹게 올라간다. 그나마 좀 낫다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고 절벽위로 다 올라왔을 땐……."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘다행이다! 책이 있다.’"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="떨어지다가 절벽 위에서 책을 놓쳤나 보다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이제 책을 읽고 집으로 돌아갈 방법을 찾을 수 있다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611322_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Ending2]"/>
+
+		</LinearLayout>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene141131313111222)책을 찾으러 이장의 방으로 가자 이장은 기다렸다는 듯이 웃음을 지으며 병사들과 함께 있었다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 이전에 이장이 보인 음흉한 미소가 생각났고 이장에게 내 계획을 다 읽힌 것을 깨달았다."/>
+       	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 나는 병사들을 다치게 하고 책을 강탈하려고 한 나의 잘못을 실토할 수밖에 없었다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장은 이렇게 까지 책을 훔치려한 나를 의심스러워하며 군인들에게 책을 강물에 빠뜨리라 하고 나는 지하실에 갇히는 신세가 되었다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책이 강물에 던져져 버려졌는지 나도 물속에 잠기듯 정신을 잃고 거품이 되어 사라져갔다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[GameOver]"/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene141131313111222_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[인어공주를 만나러]"/>
+		</LinearLayout>

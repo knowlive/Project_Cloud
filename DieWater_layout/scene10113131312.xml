@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene10113131312)이상한 물건이라고 더 오해를 받을 수 있을 것 같다. 그냥 여인을 믿고 여인이 가져다 준 물을 먹자."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="시간이 지나면 지날수록 손에 검은 반점이 생긴다.……. "/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물을 마신 이후로 몸에 증상이 생긴 것 같다. 몸에 힘이 빠지고 정신이 아득해져간다……."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이곳에 오기 전 중금속중독에 관한 책을 읽은 게 생각난다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이런 물을 더 이상 마시면 안 되는데…….’"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘정수를 해야 되는데…….’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이미 너무 늦은 건가…….’하는 생각과 함께 쓰러져 버렸다."/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene10113131312_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[소오름]"/>
+
+		</LinearLayout>

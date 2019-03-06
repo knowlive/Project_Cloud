@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene1211313131111)조금씩 벽을 판다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="벽을 판 부분은 건축자재들로 막아두었고, 벽을 파서 나온 흙들은 건축용 흙 안에 감쳐두었다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="식사 시간에는 보초가 들어오지 않아 갑자기 들어와 들킬 일이 없을 것이니 그 때 벽을 파자."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="시간이 흐른 후"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 벽을 거의 다 팠다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다음 식사시간에 탈출 할 수 있을 것이다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 식기를 가지고 왔다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="식사를 재빠르게 끝내고 벽을 파기 시작한다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/81211313131111_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="끼이이이익"/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“뭐하는 것이냐!”"/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="5분도 안되어 갑자기 보초가 들어와서 걸리고 만다."/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 지하실에 미풍이 들어온다고 보초병에게 말하여 불시검문이 이루어졌다고 한다."/>
+    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게 나는……. 탈출을 감행하다 걸려서 탈출에 실패하게 되고 책도 찾지 못하게 된다."/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131111_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[괜찮아 아주 자연스러웠어]"/>
+		</LinearLayout>

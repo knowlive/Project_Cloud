@@ -1,0 +1,108 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene1511313131121121_1)“네! 말씀만 하십시오. 심혈을 기울여 해결하겠습니다.”"/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“마을의 문제는 깨끗한 물을 많이 얻기 힘들다는 것이라네. 마음 놓고 깨끗한 물을 얻는 것이 나의 마지막 바람 일세”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을의 물이 있는 곳을 생각해보면 크게 우물물과 계곡물이 있다는 것을 알 수 있다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우물물은 조금씩 말라가는 추세에다가 깨끗하지도 않아서 내가 만든 정수기를 이용해야한다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="계곡물은 어떤 이유에서 인지 일주일에 한번만 사용하다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고 그 일주일마다 오늘처럼 빨래도 하고 식수도 길어온다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="근데 왜 일주일마다 할까?"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121121_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="조금 더 조사를 해볼 필요성을 느꼈다."/>
+
+
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene1511313131121121_9"
+                   android:src="@drawable/basis15_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="계곡에 내려가 조사해본다." 
+                   android:onClick="myListener16113131311211211"/>
+                   
+                 <ImageButton
+                   android:visibility="gone"
+			       android:id="@+id/scene1511313131121121_10"               
+                   android:src="@drawable/basis15_2"
+                   android:layout_width="match_parent"
+				   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"
+                   android:layout_height="50dp"
+				   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="마을을 돌아다니며 조사해본다."
+                   android:onClick="myListener16113131311211212"/>
+
+		</LinearLayout>

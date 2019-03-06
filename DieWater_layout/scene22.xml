@@ -1,0 +1,213 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene22)나는 폐허 안을 뒤적이다가 바닥에 뉘어져 있는 장롱하나를 발견했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그걸 뒤집어 보니 지하실문처럼 보이는 입구를 발견했다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 그 안에 숨어든다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이전의 그 책을 읽어 보려고 책을 꺼내든다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 너무 어두워 책을 읽을 수 없었다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="장롱의 문을 약간 열어 그 문틈사이로 비춰지는 빛으로 책을 읽으려고 노력한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘2173년 지구는 물이 고갈되어 각 나라들은 물이 있는 지역을 중심으로 쪼개지고 각 지역은 물로 인한 싸움이 벌어진다.’"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="……"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="몇 장 넘겨서 읽어 봐야겠다."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘물 사업을 하는 주인공은 빌딩에서 낮잠을 자던 중 내전이 발생하고 전쟁 중에 홀로 남게 된다.'"/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="뭔가 내 상황이랑 비슷하군……."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘저벅저벅’"/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="갑자기 발자국 소리가 들린다."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘나 이외의 다른 사람들이 있는 건가.’"/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘아까 계단에서 만난 것처럼 다른 피난민인가?’"/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="피난민들인 줄 알고 그 사람들에게 다가갔지만 그들은 피난민이 아니라 군인들이었다."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 나는 벙찐 얼굴을 한 채 생포되고 말았다."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="생포되어 지하실에 갇혔다."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 상황을 빠져 나가야 하는데."/>
+					    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene22_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어떻게 하지?"/>
+    	
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene22_21"
+         	    	android:src="@drawable/basis1_2_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener321"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene22_22"
+           	    	android:src="@drawable/basis1_2_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener322"/>
+		</LinearLayout>

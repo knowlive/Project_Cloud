@@ -1,0 +1,97 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene21)아무래도 사람들이 피난 가던 쪽으로 따라 가는 것이 더 안전 할 것 같다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그 사람들도 더 안전한 곳으로 이동한 것 일 테니 말이다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="영화에서 보던 것처럼 몸을 이리저리 숨겨가며 피난행렬이 있던 쪽으로 계속해서 달려간다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이미 다들 멀리 도망갔는지 사람들의 행렬이 쉬이 보이지 않는다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그때, 저기 트럭 한 대가 급히 출발하려는 것이 보인다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그 맞은 편 집에 버려진 것 같은 오토바이도 한 대 보인다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene21_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="뭐라도 타서 우선 이 전쟁터부터 멀어져야겠다."/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene21_8"
+         	    	android:src="@drawable/basis2_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener311"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene21_9"
+         	    	android:src="@drawable/basis2_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener312"/>
+		</LinearLayout>

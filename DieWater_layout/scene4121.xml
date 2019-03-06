@@ -1,0 +1,133 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene4121)생포되어 감옥에 갇힌 나는 자는 척 뒤로 누워 몰래 책을 읽기 시작했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘2173년 지구는 물이 고갈되어 각 나라들은 물이 있는 지역을 중심으로 쪼개지고 각 지역은 물로 인한 싸움이 벌어진다.’  "/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="몇 장 넘겨서 읽어 봐야겠다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘물 사업을 하는 주인공은 빌딩에서 낮잠을 자던 중 내전이 발생하고 전쟁 중에 홀로 남게 된다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘뭐지 상황이 너무 겹치는데…….아니, 이건 그냥 판박이잖아!’"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책을 보니 나는 오토바이가 아니라 트럭을 타는 것이 안전했다."/>
+										
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이런……. 다음엔 어떻게 해야 하지‘"/>
+										
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="읽으려는 순간 갑자기 그림자가 드리워진다."/>
+										
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="군인이 꼼지락 거리는 나를 보고 내방으로 들어온 것이다."/>
+										
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 책을 뺏겼고 군인들은 영어로 된 책에는 흥미가 없는지 나의 책에 불을 질렀다."/>
+										
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="더 이상 방법이 없다……."/>
+										
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내 몸이 서서히 사라져 갔다."/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>									
+			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene4121_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[으양쥬금]"/>
+
+		</LinearLayout>

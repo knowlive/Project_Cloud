@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311121_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene13113131311121)지하실을 빠져나가는 순간 나는 소리를 듣고 달려온 보초병들에게 발각되었고 이장은 내가 만든 부비트랩을 만든 것을 알게 되었고 나를 징계하기로 결정한다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311121_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 나는 이렇게 또 다른 세상에서 나의 이야기를 마치게 된다."/>
+   				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311121_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311121_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[자라(22):자라,그냥자라]"/>
+		</LinearLayout>

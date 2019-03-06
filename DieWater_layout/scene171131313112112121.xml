@@ -1,0 +1,163 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene171131313112112111_1)나의 힘으로 우물을 깊게 파기 벅차다. 마을사람들에게 도움을 요청하자."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“지금 있는 우물보다 더 깊은 곳에 있는 지하수를 끌어오려면 우물을 더 파야해요. 저를 좀 도와주세요.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그래요. 당신이 만들고 나누어준 간이정수기 정말 잘 쓰고 있어서 보답하고 싶었는데 마침 잘 되었네요.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 마을사람들에게 우물을 더 깊게 파자고 설득하자 다행히도 건장한 마을청년들이 간이정수기를 만들어 나눠준 것이 고마웠다며 함께 우물을 파준다고 한다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우물을 더 깊게 파 계곡의 물높이보다 낮게 하면 계곡물이 우물로 들어오고 그러면 계곡까지 가지 않아도 계곡물을 가져올 수 있을 것이다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="지하실에서 봤던 펌프를 이용해서 우물을 파자."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="하루 뒤"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우물물이 충분히 차올랐다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“물이 깨끗하지 않은 것 같은데? 이래서는 여전히 문제이지 않은가.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="실제로 계곡물이 지하로 들어와 생긴 우물물은 그렇게 깨끗하지는 않았다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“이장님, 계곡물이 더러운 건 전쟁 때문에 어쩔 수 없어요.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그럼 내가 어떻게 하면 되나? 지금 당장 총을 메고 옆 마을을 점령하고 오면 되나?” 이장이 되레 화를 내며 물어온다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이전에는 이렇게 우물을 더 깊게 팔 펌프가 없었고 지금은 계곡물이 더러워졌는데 어쩌라는 것이다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene171131313112112121_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 이 문제의 근원을 해결해야 한다."/>
+
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene171131313112112121_15"
+                   android:src="@drawable/basis17_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="직접 옆 마을로 찾아가 협상을 한다." 
+                   android:onClick="myListener1811313131121121211"/>
+                   
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene171131313112112121_16"
+                   android:src="@drawable/basis17_2" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="이장한테 옆 마을과 협상하라고 한다.." 
+                   android:onClick="myListener1811313131121121212"/>
+
+
+
+		</LinearLayout>

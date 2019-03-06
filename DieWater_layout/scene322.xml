@@ -1,0 +1,71 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene322)괜히 눈에 띄는 행동을 했다가 기회를 날릴 수도 있으니 나는 가만히 잠이나 마저 자기로 했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘윽!’ 누군가 복부를 발로 차는 느낌과 함께 잠에서 깨어났다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다행히 책이 있던 부분에 맞아 고통이 덜하다는 생각을 하려던 찰나 나를 발로 찬 군인이 내 책을 눈치 채고 뺏어가 버린다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="영어로 쓰인 책이라 그런지 군인들은 신기하게 여기며 서로 읽겠다고 빼앗다가 책이 그만 찢겨 버리고 말았다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고 왜인지 나의 몸은 가운데부터 서서히 사라져 가기 시작했다."/>
+			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>														
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene322_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[정신차려 이 각박한 세상속에서]"/>
+
+		</LinearLayout>

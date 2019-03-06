@@ -1,0 +1,97 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene7113211)나는 소리를 지르며 다친 다리를 부여잡고 연기를 했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="군인들이 경계하며 나에게 다가왔다가 내 다리가 상당히 부은 것을 보고 나를 부축해준다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 고마운 마음에 몸을 의지하려고 하는데 갑자기 그들은 나를 결박하기 시작한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고는 어느 쪽 마을사람인지 심문을 하기 시작하며 자신들의 기지로 끌고 와 버린다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 내 상황을 설명했지만 그들은 어이없어 하며 대장을 부르러 갔다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="대장이 왔다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아! 전에 전쟁 난 마을에서 나에게 도망치라고 말해줬던 사람이다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다행이도 그 사람은 나를 알아 봤고 군인들에게 빼앗긴 책을 돌려받을 수 있었다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이제 집으로 돌아갈 방법을 찾아야겠다."/>	
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113211_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Ending1]"/>
+
+		</LinearLayout>

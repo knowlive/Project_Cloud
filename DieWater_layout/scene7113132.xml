@@ -1,0 +1,79 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene71131122)여인을 힘으로 제압한 나는 여인의 팔을 꺾어 움직이지 못하게 한 후, 뒷문으로 나갔다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그곳에는 방금 타고 온 트럭이 세워져 있었다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“꼼짝마! 조금이라도 움직이면 이 여인을 가만두지 않을 것이다! 트럭 열쇠를 어서 주어라”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="군인들이 조심스레 열쇠를 주었다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 여인을 트럭에 태우고 마을을 재빠르게 빠져나와 어디로든 달리기 시작했다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을에서 어느 정도 떨어졌을 무렵 여인을 길가에 버리듯 내려주고 왔다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인을 내리고 얼마나 달렸을까 결국 나는 평화로워 보이는 도시에 도달 할 수 있었고 거기서 책을 마저 읽을 수 있었다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113132_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Ending3]"/>
+
+		</LinearLayout>

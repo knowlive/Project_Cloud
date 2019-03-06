@@ -1,0 +1,233 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene201131313112112111221_1)쓰레기를 주우 내려간다고 하니 마을사람들이 걱정을 한다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“가지마세요…….”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인은 눈물을 글썽이며 나를 말린다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“미안해. 두 마을을 위해선 어쩔 수 없어.”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 여인을 애써 진정시킨다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 내려와 쓰레기를 주웠고 고요한 정적 속에서 어느 쪽에서도 나에게 총을 쏘지는 않았다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게 홀로 쓰레기를 줍고 있을 때, 여인도 내려와 함께 쓰레기를 줍기 시작했다."/>
+							
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="놀랍게도 그 다음엔 옆 마을의 병사들이 내려와 쓰레기를 주웠으며 그 다음엔 함께 우물을 팠던 마을청년들이 내려와 쓰레기를 줍기 시작했다."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="양쪽 마을 사람들은 계곡에 내려와 쓰레기를 줍기 시작했고 계곡은 옆 마을 사람과 내가 있는 마을사람들이 만나는 화합의 장이 되었다. 덕분에 계곡은 금세 깨끗해졌다. "/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 중금속들이 다 내려가지 않았는지 아직 물이 탁했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게 함께 일을 하고 정수기를 만들며 양쪽 마을 사람들 간에 쌓여있던 알 수 없는 불신이 사라지고 두 마을의 군인들은 서로를 향해 총을 쏘지 않게 되었다. "/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고 계곡의 물이 깨끗해지기 시작했을 때 양쪽 마을의 이장들은 화해를 했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장은 나를 방으로 불러 책을 주었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책을 펼쳤다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이제 책의 길을 따라 너의 길로 돌아가자.’"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책 마지막 장에는 문구와 함께 다른 사람들이 쓴 것 같이 보이는 동그라미와 엑스들이 너저분하게 쓰여 있었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“이제 내가 집으로 돌아가야 될 때가 되었다.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“돌아가지 마세요.”"/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인은 내게 애원한다."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“나를 잊지 만 말아줘요.”"/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그리고 나는 책에 동그라미를 쳤다."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인은 정신이 아득해지는 내게 마지막 인사를 전한다."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘잘 가……. 언니…….’"/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111221_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="[Real Ending]"/>
+
+
+
+
+		</LinearLayout>

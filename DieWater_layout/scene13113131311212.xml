@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene13113131311212)그날 밤 나는 한숨도 자지 못했다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="모기는 물론이고 옷 속에 이, 진드기, 개미, 벼룩 등 벌레랑 벌레는 다 나와서 나를 물어뜯었기 때문이다."/>
+       	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그 때문일까……. 아침에 일어나니 몸이 으슬으슬 떨리고 기운이 하나도 없다."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="산속이라 병원도 없다는데……. 큰일이다……."/>
+					    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="벌레에 물려 바이러스가 퍼진 것 같은데……. 여인이 다가와 민간요법을 써주지만 효과가 없다……."/>
+										    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="열은 나는데 몸은 점점 더 차가워진다."/>
+										    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정신은 점점 더 아득해져간다……."/>
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>				
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene13113131311212_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[못생긴건 좀 괜찮아?]"/>
+		</LinearLayout>

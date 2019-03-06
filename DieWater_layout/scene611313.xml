@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene611313)“으 업!” "/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="살그머니 발뒤꿈치를 들어 한 방을 찾아 들어갔다가, 방안에 한 여인이 서있어 나도 모르게 소리 지르는 여인의 입을 막았다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“누구세요. 읍”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“저는 아무 무기도 갖고 있지 않아요. 당신에게 아무런 해를 끼치지 않을 것이라고 맹세해요!”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="'쿵!쿵!쿵!'"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“괜찮으십니까?” 밖에서 아까 그 운전기사의 목소리가 들려온다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아무래도 여인의 짧은 비명을 듣고 문을 두드린 것 같다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene611313_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="순간 아까 운전기사가 한 말이 스쳐 지나가며, 이곳이 전쟁지역인 것이 생각났다."/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene611313_9"
+         	    	android:src="@drawable/basis4_2_1_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener7113131"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene611313_10"
+           	    	android:src="@drawable/basis4_2_1_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener7113132"/>
+
+		</LinearLayout>

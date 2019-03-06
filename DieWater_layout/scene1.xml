@@ -1,0 +1,341 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Secne1)으……."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(정신이 든다)"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“코드블랙! 코드블랙!”"/>  
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다급한 목소리와 함께 땅을 울리는 대포 소리가 희미하게 들려온다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이곳은 어디지…….’"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="눈을 뜨고 일어나서 주위를 살펴보았더니 웬 건축자재들이 널브러져 있다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아무래도 나는 공사 중인 빌딩 안에 있는 것 같다."/>
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="계속되는 사람들의 비명소리와 사이렌 소리에 창밖을 내다보았더니 저 멀리 사람들이 머리에 짐을 이고 피난행렬을 이루고 있는 모습이 들어온다."/>
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="잠시 후 계단으로 사람이 내려오다가 나를 보고 말한다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“아직까지 뭐하고 계십니까? 빨리 피하세요. 여기도 곧 쳐들어 올 것 입니다.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="말이 채 끝나기도 전에 그 사람은 계단 아래로 사라져 버렸다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="왠지 모르겠지만 내가 전쟁터 한가운데 홀로 남게 된 것 같다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우선, 안전한 곳으로 먼저 도망가서 앞으로의 일을 생각해 봐야겠다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어디로 가지……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="모르겠다.…. 사람들이 피난 가는 쪽으로 가봐야지……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="헉…….헉헉……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="너무 힘들다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="피난 간 쪽으로 뛰다보니 몸도 지치고 하늘을 보니 곧 해도 질 것 같다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="일단 몸을 숨기고 지친 몸을 달래야겠다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="오! 때마침 저기 아무도 들어가지 않을 것 같은 폐허가 보인다. 저기서 쉬어야겠다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="이동중"/>
+    		
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="폐허로 도망친 지 1시간째 대포소리가 점점 더 가까이 다가온다."/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="모든 것이 낯설다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이곳은 어디인지, 왜 내가 이곳에 와있는지 아무리 생각해도 모르겠다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그나저나 이건 또 뭐야, 내 가슴팍을 짓누르는 것이 있어서 살펴보니 웬 책이 있다."/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_26"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="언제부터 내가 책을 가지고 있었던 거지? 아까 전에도 이 책을 가지고 있었나?"/>
+    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_27"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="설마……. 이 책은……."/>
+					    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_28"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘히이이잉유우웅, 쿠구궁’"/>
+					    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_29"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책에 대한 생각이 드는 순간 머리위로 비행기가 지나가고 대포소리가 들려온다."/>
+					    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_30"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="대포소리가 다가오는 것을 듣고 있자니 이곳은 너무 위험한 것 같다."/>
+					    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_31"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어느 정도 쉬었는데 밖으로 나가서 사람들이 피난 가던 쪽으로 도망칠까?"/>
+										    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_32"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아니야. 밖이 이제 어두워져서 군인들이 막 총을 쏠지도 몰라……."/>
+															    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_33"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="대포도 언제 떨어질지 모르고 나가는 건 위험할 것 같기도 한데……."/>
+															    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1_34"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아니면 하루정도는 건물 안에서 숨어있어도 될 것 같으니 이곳에서 숨을 곳을 찾아볼까?"/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene1_35"
+         	    	android:src="@drawable/basis1_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener21"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene1_36"
+           	    	android:src="@drawable/basis1_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener22"/>
+		</LinearLayout>

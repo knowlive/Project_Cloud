@@ -1,0 +1,261 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene81131313)지하실에 갇힌 지 얼마나 되었을까……."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="갑자기 사람이 들어와 나를 심문하기 시작한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="목소리로 보아 그 운전기사 같다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘자네 처음 보는 사람인데 정보를 빼내러 왔나?’"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="전쟁을 한다고 했으니 아마 나를 반대 팀의 스파이로 생각하는 것 같다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="낯선 사람이 주거 침입을 했고 전쟁 상황이니 의심받을 만하다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘아니요…….’"/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘그럼 왜 이장의 집에 잠입한 거지?’"/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/81131313_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 책에 대한 이야기를 제외하고 지금까지의 일을 설명해 주었다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="심문하던 사람은 뭔가 아리송하다는 표정을 지으며 나가버린다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘자기도 그 전쟁터에 있었으니 믿어주겠지?’"/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="잠시 후 나를 배신한 여인이 밥과 물을 가져다주었다."/>
+    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그러나 나를 이런 상황으로 몰아넣은 주범이 주는 음식을 먹고 싶진 않았다."/>
+    	    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그녀가 또 어떤 수작을 부릴지 누가 아는가?"/>
+					    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘나를 또 속이고 약을 탈수도 있어.’"/>
+					    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 경계하는 모습을 보고 여인은 보란 듯이 나에게 가져온 밥과 물을 조금 먹고 나가버린다."/>
+					    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나를 안심시키기 위해 한 행동인가."/>
+										    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그래도 나는 여인이 가져온 음식은 절대로 먹지 않을……."/>
+										    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘꼬르으윽’"/>
+										    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="……. "/>
+															    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="먹기는 먹어야겠다."/>
+															    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘아 써!’"/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="일단 살자는 마음으로 밥부터 재빠르게 먹어 치우고 물을 마셨는데"/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물맛이 이상하다."/>
+																				    			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene81131313_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="약을 탄 물인가? 아까 여인도 마셨으니 그건 아닌가? 그럼 오염된 건가?’"/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene81131313_26"
+         	    	android:src="@drawable/basis8_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener911313131"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene81131313_27"
+         	    	android:src="@drawable/basis8_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener911313132"/>
+		</LinearLayout>

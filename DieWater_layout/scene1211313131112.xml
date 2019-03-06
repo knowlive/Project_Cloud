@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="(Scene1211313131112)부비트랩을 만들어 살짝만 건드려도 쌓여있던 나무들이 넘어지도록 만든다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="문제는 나무가 쌓여 있는 곳까지 보초병을 들어오게 만들어야 한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그래서 나는 나무 두 개를 들어 나무 하나는 바닥으로 집어 던지고 비명소리를 지르며 그 자리에 누워 다른 하나를 얼른 다리위에 올려놓자."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="으아아아아악"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“무슨 일이오.”"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나의 비명을 들은 보초가 급하게 들어왔다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="보초병은 나무를 치워주러 달려오다가 내 계획대로 나무더미를 건드리고 만다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우당탕"/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/81211313131112_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="요란한 소리와 함께 나무들이 무너진다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="보초는 깔려 기절하고 만다."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 다른 보초병들이 오기 전에 보초병의 주머니를 뒤적였다."/>
+    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="열쇠를 찾았다!"/>
+    	        
+				<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_36"
+         	    	android:src="@drawable/basis10_1_2_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener12113131311121"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene1211313131112_37"
+         	    	android:src="@drawable/basis10_1_2_2"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener12113131311122"/>
+   
+		</LinearLayout>

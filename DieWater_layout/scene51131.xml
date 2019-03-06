@@ -1,0 +1,196 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene51131)그래, 한 시 빨리 탈출해서 집에 가고 싶다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="침을 꿀꺽 삼키며 책을 펼쳐 들었다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘주인공은 트럭에서 잠이 든다. 트럭의 움직임에 일어난 주인공은 들려오는 운전자의 통화소리에 자신이 다시 전쟁터로 간다는 사실을 깨닫는다. 주인공은 트럭이 마을에 도착할 때까지 기다렸다가 트럭이 멈추는 순간 몰래 빠져나와 집에 숨어든다.’"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="'끼이익!'"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="트럭이 브레이크를 밟는 소리가 들린다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="벌써 트럭이 마을에 도달한 것 같다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이런 아직 다 못 읽었는데…….’"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="영어책이라 좀 채 읽는 속도가 나지 않는다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="평소에 영어 공부 좀 해둘걸."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우선, 나는 책에서 읽었던 것처럼 트럭이 멈추려고 할 때 운전사의 눈을 피해 내렸다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아까 책에서 주인공이 집에 숨어든다고 했지?"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 주변에 집이……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="엇 저기 있다! 그래! 저 집에 몸을 숨겨야겠다."/>
+					
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="이동 중"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="'철컥철컥'"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="엇 문이 열린다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="집 안으로 들어 가보니 포근한 느낌이 났다."/>
+					
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51131_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="사람들이 다 자는지 사람 인기척이 나지 않는다."/>
+
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene51131_19"
+         	    	android:src="@drawable/basis5_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener611311,2"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene51131_20"
+           	    	android:src="@drawable/basis5_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener611311,2"/>
+		</LinearLayout>

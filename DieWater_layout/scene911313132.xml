@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene911313132)시간이 지나면 지날수록 손에 검은 반점이 생긴다.……. "/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물을 마신 이후로 몸에 증상이 생긴 것 같다. 몸에 힘이 빠지고 정신이 아득해져간다……."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이곳에 오기 전 중금속중독에 관한 책을 읽은 게 생각난다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이런 물을 더 이상 마시면 안 되는데……."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정수를 해야 되는데……."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이미 너무 늦은 건가……."/>
+			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>									
+				
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene911313132_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[뭐지 이 참신한 지옥은?]"/>
+
+		</LinearLayout>

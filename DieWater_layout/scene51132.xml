@@ -1,0 +1,144 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene51132)정신이 아득하다……. 트럭에서 내리려는 순간 발에 닿는 것이 없음을 깨달았다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="저 위로 트럭이 먼지를 날리며 낭떠러지를 따라 난 길을 지나간다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="시간을 되돌리기엔 이미 너무 늦었다."/>
+    	    	    	    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="잠시휴"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="으……."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다행히도 다리가 다친 것을 빼면 괜찮은 것 같다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게 절벽이 높지는 않았나.……. "/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아님 내가 행운아였던 것인가."/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="주위를 살펴보니 옆에 강물이 있다. "/>    	
+    	
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="트럭 안에서 들었던 물소리가 트럭 주위에서 나는 소리가 아니라 강물이 흐르는 소리였나 보다."/>	
+
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_marginTop="40dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그나저나 큰일 났다. "/>
+
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene51132_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 갖고 있는 책이 없어졌다. 빨리 찾아야 한다."/>
+    	  
+         		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene51132_13"
+         	    	android:src="@drawable/basis4_2_1"
+            		android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                	android:onClick="myListener611321"/>
+                	
+           		<ImageButton
+					android:visibility="gone"
+					android:id="@+id/scene51132_14"
+           	    	android:src="@drawable/basis4_2_2"
+                	android:layout_width="match_parent"
+					android:scaleType="centerCrop"
+					android:padding="0sp"
+                	android:layout_margin="5dp"
+                	android:layout_height="50dp"
+					android:background="@null"
+                	android:textSize="12sp"
+                	android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                	android:onClick="myListener611322"/>
+		</LinearLayout>

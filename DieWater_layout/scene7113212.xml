@@ -1,0 +1,97 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene7113212)군인들을 몰래 따라갔다. 언제까지 걸어가야 하는 거지."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="강 주변을 배회하고 군인들을 한참을 걸은 탓인지 절벽에서 떨어져 다친 다리가 더욱 심하게 퉁퉁 부어있다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘이 다리로는 더 이상 따라가지 못하겠다.’는 생각과 함께 결국 나는 그 자리에서 쓰러지고 만다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="정신이 들었을 때는 이미 캄캄한 밤이었고 까마귀 소리만 까악까악하고 들려온다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="‘으아악!’"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="책을 잃었다는 슬픔보다 심하게 쓰러지면서 부딪힌 머리 쪽 상처에서의 출혈과 이전의 그 다리가 이제는 파랗게 색이 변해있는 상황에 고통이 온다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다리 쪽에서 뼈를 아리는 고통과 머리 위에서 목덜미를 타고 내리는 피를 따라 시야가 점점 어두워지기 시작한다."/>
+    		
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그렇게……. 나는……. 다시 정신이……. 희미해져 간다.……."/> 
+			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[Game Over]"/>									
+			
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene7113212_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#FF2222"
+        			android:text="[나 꿍꼬또 기싱 꿍꼬또]"/>
+ 
+		</LinearLayout>
