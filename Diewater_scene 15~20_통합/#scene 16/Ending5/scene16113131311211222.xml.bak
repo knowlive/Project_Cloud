@@ -1,0 +1,125 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene16113131311211222_1)여인은 내게 마을 밖으로 나가 안전한 도시로 갈 수 있는 지도를 주었다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“우리 같이 마을을 나가자.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“제가 가면 아버지께서 군사를 풀어 추격할 거예요……. 어서가요.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“고마워…….그리고 잘 있어…….”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 여인에게 짧은 말만 남긴 채 여인이 준 지도를 보고 마을을 떠났다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="시간이 흐른 후"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="시간이 얼마나 흘렀을까……."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="밤에는 산길을 걷고 낮에는 숨어 지냈다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“헉…….헉……. 저기 건물이 보이는 곳이 여기 지도에 표시되어있는 안전한 도시인가.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 겨우 도심지 주변에 도달했고 그곳의 친절한 사람의 도움을 받아 구조됐다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 사무치게 그립다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인을 마음 한켠에 담아 둔 채 책속의 도시에 정착하기로 노력한다. "/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211222_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="Ending"/>
+
+
+		</LinearLayout>

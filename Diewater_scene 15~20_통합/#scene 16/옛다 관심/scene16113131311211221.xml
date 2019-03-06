@@ -1,0 +1,196 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene16113131311211221_1)“나를 이장의 방으로 데려다 주세요. 부탁이에요.”"/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그게 무슨 책이기에 그렇게까지 해서 얻으려고 하나요.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 거지와 만나 이곳에 오기까지의 일을 설명해 주었고 여인은 내 이야기를 듣고 고개를 갸우뚱 하며 약간 미심쩍어 한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그래요. 당신의 말이라면 믿을게요.”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인은 나의 손을 묶는다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“뭐하는 거예요?”"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“당신은 나에게 끌려가는 척 해요. 만약 보초병을 마주치면 간이 정수기에 약간의 문제가 생겼다며 둘러대고 방안으로 몰래 잠입해요.”"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그래요. 그렇게 해요.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="이동 중"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장의 방으로 가는데 이상하게 보초병이 보이질 않았다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장의 방 앞에서 걸음을 멈췄다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 열쇠를 꺼냈다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="철컥철컥"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="열쇠로 방을 열려는데 문이 잠겨있지 않았다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="끼이이익"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="무언가 불타는 냄새가 난다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장이 책을 한장 한장 벽난로에 태우고 있었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“안 돼!”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="놀란 내가 이장을 말리러 달려가자 이장에 방에 있던 병사들이 나를 잡아 바닥에 뭉개버렸다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="Game Over"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211221_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="옛다 관심"/>
+
+		</LinearLayout>

@@ -1,0 +1,18 @@
+package com.cookandroid.diewater.view;
+ 
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.LinearLayout;
+
+import com.cookandroid.diewater.R;
+
+public class Scene201131313112112111221View extends LinearLayout {
+
+	public Scene201131313112112111221View (Context context, AttributeSet attrs) {
+		super(context, attrs);
+		LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		View view=layoutInflater.inflate(R.layout.scene201131313112112111221,this);
+	}
+}

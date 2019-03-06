@@ -1,0 +1,116 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene151131313112111_1)빨랫감을 버리고 간다면 이장이 나에게 무슨 짓을 할지 모른다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어떻게든 가져가야한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“먼저 도망쳐요. 내가 어떻게든 이 빨랫감들을 가지고 뒤따라서 갈게요”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“무사 하셔야해요. 꼭.”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 무사히 도망치는 것을 뒤에서 지켜본 후 빨래를 들고 뛰었다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="헉…….헉……."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="빨래의 양을 간과한 탓일까 생각보다 빠른 속력을 내지 못한다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 결국 옆 마을 군인들에게 잡히고 만다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="다시 마을로 돌아가지도 못하고, 책을 돌려받지도 못하고……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 책 밖으로 돌아갈 수 있는 방법들이 모두 사라졌다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="Game Over"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121111_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="날 가져요 엉엉"/>
+
+
+		</LinearLayout>

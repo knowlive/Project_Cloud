@@ -1,0 +1,67 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211212_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene16113131311211212_1)마을 사람들에게 물어보니 어느 날부터 물맛이 이상해지고 몸에 반점이 생기기 시작했다고한다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211212_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그래도 요즘에 정수기를 사용하고부터 몸의 피로도 풀리고 반점도 줄어들어 고맙다고 한다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211212_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="언제부터 그런 것이냐고 하니 계곡 건너에 있는 옆 마을과 계곡을 두고 싸우게 된 이후로 그런 것 같다고 했다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211212_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아마 전쟁으로 인해 물이 오염되어 사람들이 중금속에 중독된 듯 싶다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211212_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="중금속이 없는 물을 구하려면 지금 있는 우물보다 더 깊은 곳에 있는 지하수를 끌어오거나 송수관을 만들어 계곡물을 끌어 와야 될 것 같다."/>
+									
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene16113131311211212_6"
+                   android:src="@drawable/basis15_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="흠 그럼 어떻게 할까?" 
+                   android:onClick="myListener171131313112112111"/>
+                   
+
+		</LinearLayout>

@@ -1,0 +1,289 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene1811313131121121211_1)이장이 저렇게 화내는데 이장에게 옆 마을 이장과 협상하라고 했다가 봉변을 당할게 뻔하다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 한 번 가보자."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="백기를 들고 옆 마을로 넘어가자 옆 마을 군인들이 총을 겨눈다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“누군데 여기 온 거냐?”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“이 마을의 이장님을 뵈러 왔습니다. 깨끗한 물을 얻을 방법이 있습니다. 이장님을 뵙게 해주세요.”"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="간절한 눈빛으로 군인들을 쳐다본다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그걸 어떻게 믿지?”"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="사내들은 총을 경누며 나를 위협한다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="위협하는 사내들의 손에 중금속중독에 의한 반점들이 보인다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“여기에 마을의 물을 부어보면 알 수 있습니다.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 미리 준비해간 간이 정수기를 보여주며 자신 있게 말했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“마을의 우물로 데려가 주시면 보여드리겠습니다. 아니면 그 자리에서 저를 죽이셔도 됩니다. 이장님을 꼭 불러주십시오.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="우물로 이동 중"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“내가 바로 옆 마을 이장이네.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="옆 마을 이장을 보니 우리 마을의 이장과 너무 비슷하게 생겨서 놀라 주저앉을 뻔 했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“내가 바로 이 마을 이장이네.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="옆 마을 이장과 마을사람들 그리고 내게 총을 겨눈 사내들이 나를 둘러싸고 서있다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이곳의 우물은 말라가고 있었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="우물에서 물 한바가지 길러 간이정수기에 흘려주었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“아무 일도 없는데? 저자를 잡아라!”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="성급한 이장이 손으로 나를 가리키며 소리쳤다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“5분만……. 아니 1분만 기다려 주세요.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="간이정수기에서 조금씩 깨끗한 물이 흘러나오자 마을사람들의 적대적인 눈에서 흥미로워 하는 눈빛으로 변했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“어떻게 하면 그 장치를 만들 수 있지?”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장이 눈이 휘둥그레지며 나에게 차근히 물어왔다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_26"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이 사람들에게 이 장치는 누구보다도 필요하다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_27"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="장치 만드는 방법을 알려주는 대신 휴전을 협상할까?"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1811313131121121211_28"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="아님 장치를 만드는 것보다 중요한건 전쟁을 끝내는 것이고. 그래야만 마을사람들의 병을 고치는 방법이라고 말할까?"/>
+
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene1811313131121121211_29"
+                   android:src="@drawable/basis18_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="장치를 알려주는 대신 휴전을 협상한다." 
+                   android:onClick="myListener19113131311211212111"/>
+                   
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene1811313131121121111_30"
+                   android:src="@drawable/basis18_2" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="전쟁을 끝내서 마을사람들의 병을 고치자고 한다." 
+                   android:onClick="myListener19113131311211212112"/>
+
+
+
+		</LinearLayout>

@@ -1,0 +1,127 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene19113131311211211111_1)이 옆 마을 이장은 나를 가소롭다는 듯이 보고 웃는다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“이봐라, 저자를 잡아라.”"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="병사들을 시켜 지하실에 가둬버렸다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="잠시 후"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“장치를 만드는 방법을 말하던지, 평생 여기에 갇혀 있던지 알아서 결정하시게나.”"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="지하실을 둘러보았다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="큰일이다! 여기 지하실에는 우리 마을 이장집의 지하실처럼 만들 만한 장치가 없다."/>
+							
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“저…….여기에는 재료가 없어서 만들 수 없습니다.……. 우리 마을에 재료를 가지러 갔다 와도 되겠습니까?”"/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“빠져 나가려고 별 거짓말을 다하는군. 근데 너무 노골적인 거 아닌가?”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장은 비웃으며 내 말을 받아쳤다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="““저년 평생여기에 썩게 가둬.”"/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="Game Over"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene19113131311211211111_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#ff0000"
+        			android:text="기회를 엿보다가아 ★납★치★성★공★"/>
+
+
+		</LinearLayout>

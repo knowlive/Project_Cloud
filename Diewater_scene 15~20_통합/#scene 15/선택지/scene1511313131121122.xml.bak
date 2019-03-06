@@ -1,0 +1,329 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene1511313131121122_1)이장은 나를 계속 부려먹을 생각인 것이 틀림없다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내가 여기서 얼마나 많은 일을 했는데!"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="분하다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“네 알겠습니다. 저, 좀 지쳐서 오늘은 푹 쉬고, 내일 다시 듣겠습니다.”"/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“그렇게 하게”"/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 그날 밤 이장의 집에 침투하기로 한다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="계략을 꾸미는 중"/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="저녁이 되었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="비장한 마음으로 이장 집에 갔다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장 집 앞에 보초들이 서있다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“무슨 일인가.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“제가 여기 근처를 걸어가는데 저기 이상한 사람이 있었습니다.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_13"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“알겠네. 우리가 그쪽으로 가보겠네.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_14"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="전쟁에 민감해져 있는 사실을 이용해 보초들을 쉽게 따돌렸다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_15"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="집안으로 들어왔다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_16"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="이장의 방을 재빨리 찾았다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_17"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="철컥철컥"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_18"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="문이 열리지 않는다! 큰일이다!"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_19"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어떻게든 방법을 찾아야 된다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_20"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“누구냐! 꼼짝마!”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_21"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="당황하고 있는 사이 군인들에 의해 결박되었다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_22"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 다시 지하실에 갇혔다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_23"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="어떻게 하지……."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_24"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="생각중"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_25"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“알겠네. 내가 그쪽으로 가보겠네.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_26"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="갑자기 문이 열리는 소리가 들린다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_27"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="누구지."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_28"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_29"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="누구지."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_30"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“내일 아침이면 아버지가 이 상황을 알게 될 것 이고, 무단침입하려고 한 당신을 용서하지 않을 거예요.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_31"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“내가 어떻게 하는 것이 좋을까요.”"/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_32"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="여인이 수심에 잠긴 얼굴로 고민을 한다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene1511313131121122_33"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="“도망가요”"/>
+
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene1511313131121122_34"
+                   android:src="@drawable/basis14_2_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="책을 얻기 위해 여인을 꼬드긴다." 
+                   android:onClick="myListener15113131311211221"/>
+                   
+                 <ImageButton
+                   android:visibility="gone"
+			       android:id="@+id/scene1511313131121122_35"               
+                   android:src="@drawable/basis14_2_2"
+                   android:layout_width="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_height="50dp"
+                   android:textSize="12sp"
+                   android:text="책을 포기하고 마을에서 도망친다."
+                   android:onClick="myListener15113131311211222"/>
+
+		</LinearLayout>

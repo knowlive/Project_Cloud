@@ -1,0 +1,119 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene201131313112112111222_1)마을로 다시 돌아와 생각해보니 아주 위험한 하루였다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="내일 쓰레기를 주우러 가면 옆 마을 군인들이 총을 쏘는 것은 아닌가 두렵다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="다음날"/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="결국 나는 내려가지 못했다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="물 문제는 더 이상 해결할 방도가 없어 보였다."/>
+									
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_6"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="나는 결국 문제를 해결하지 못해 책을 받지 못했다."/>
+														
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_7"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="하지만 다행히도 이장은 그래도 위험한 계곡으로 가지 않고 많은 우물물을 얻게 되어 기분이 나빠 보이지는 않았다."/>
+							
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_8"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#708090"
+        			android:text="며칠 뒤."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_9"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="옆 마을 사람들은 더러운 계곡물 때문인지 간이정수기를 만드는 방법을 알기 위해 우리 마을로 하나 둘 넘어오기 시작했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_10"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그런 우리 마을을 경계하기 위해 옆 마을 이장은 우리 마을에 대한 경계를 더 심하게 하기 시작했다."/>
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_11"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="그럼에도 불구하고 우리 마을은 풍부해진 물 덕분에 농업 량이 늘어 다른 마을과 교류를 하기 시작했고 나는 이장을 도와 잘 지내게 되었다."/>
+
+
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene201131313112112111222_12"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="Ending"/>
+
+
+
+
