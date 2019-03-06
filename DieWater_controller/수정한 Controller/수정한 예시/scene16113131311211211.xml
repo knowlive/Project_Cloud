@@ -1,0 +1,81 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"    
+    		android:orientation="vertical">
+    			<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211211_1"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="(Scene16113131311211211_1)계곡으로 내려가보니 저번에 보았던 여타 금속들이 보인다."/>
+    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211211_2"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="자세히 보니 총알과 수류탄 조각, 포탄 덩어리들이다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211211_3"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="생각해 보니 지하실에 있을 때 있었던 작은 여진들과 요란한 소리는 포탄이 떨어지는 소리였나 보다."/>
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211211_4"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="마을에 군인들이 많은 것과 계곡물을 일주일에 한번 사용가능한 것은 아마 협정때문인 것 같다."/>
+
+    	    	    	
+				<TextView
+					android:visibility="gone"
+					android:id="@+id/scene16113131311211211_5"
+        			android:layout_width="fill_parent"
+        			android:layout_margin="20dp"
+        			android:layout_height="wrap_content"
+        			android:textColor="#000000"
+        			android:text="안전하게 물을 구하려면 지금 있는 우물보다 더 깊은 곳에 있는 지하수를 끌어오거나 송수관을 만들어 계곡물을 끌어 와야 될 것 같다."/>
+									
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene16113131311211211_6"
+                   android:src="@drawable/basis16_1" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="기존의 우물을 조금 더 깊게 파자." 
+                   android:onClick="myListener171131313112112111"/>
+                   
+				<ImageButton
+			       android:visibility="gone"
+			       android:id="@+id/scene16113131311211211_7"
+                   android:src="@drawable/basis16_2" 
+                   android:layout_width="fill_parent"
+                   android:scaleType="centerCrop"
+                   android:padding="0sp"   
+                   android:layout_margin="5dp"                   
+                   android:layout_height="50dp"
+                   android:background="@null"
+                   android:textSize="12sp"
+                   android:text="계곡물을 가져오도록 하자" 
+                   android:onClick="myListener171131313112112112"/>
+
+
+		</LinearLayout>

@@ -1,0 +1,33 @@
+*이미지버튼(선택지) 추가사항
+
+      <ImageButton
+     android:visibility="gone"
+     android:id="@+id/scene1_9"
+               android:src="@drawable/basis1_1" 
+              android:layout_width="fill_parent"
+              android:scaleType="centerCrop"
+      android:padding="0sp" 
+                 android:layout_margin="5dp"                 
+                 android:layout_height="50dp"
+                 android:background="@null"
+                 android:textSize="12sp"
+                 android:text="밖으로 방금 전 그 사람이 도망치던 곳으로 나도 도망친다." 
+                 android:onClick="myListener21"/>
+                 
+
+ex)에러나는 이전 것
+
+ 
+
+
+             <ImageButton
+     android:visibility="gone"
+     android:id="@+id/scene1_10"     
+                 android:src="@drawable/basis1_2"
+                 android:layout_width="match_parent"
+                 android:layout_margin="5dp"
+                 android:layout_height="50dp"
+                 android:textSize="12sp"
+                 android:text="폐허 주위로 아무도 오지 않으니 폐허 안에서 숨을 곳을 찾는다."
+                 android:onClick="myListener22"/> 
+
